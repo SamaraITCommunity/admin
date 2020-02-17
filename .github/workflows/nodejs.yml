@@ -10,5 +10,5 @@ jobs:
       - name: Setup Node.js for use with actions
         uses: actions/setup-node@v1.1.0
       - name: Install TS
-        run: npm install -g ts-node && npm install -g typescript && tsc --noemit
+        run: npm install -g ts-node && npm install -g typescript && npm install && tsc --noemit
         
