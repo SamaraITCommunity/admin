@@ -3,3 +3,6 @@ db.json
 .env
 .pnp.js
 .yarn/
+package-lock.json
+yarn.lock
+src/**/*.js
