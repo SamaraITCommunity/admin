@@ -1,10 +1,10 @@
 export interface DBScheme {
     queue: {
         tasks: {
-            [key: string]: Task
-        }
-    },
-    vk: { lastCheckTime: number }
+            [key: string]: Task;
+        };
+    };
+    vk: { lastCheckTime: number };
 }
 
 export interface Task {
@@ -25,8 +25,8 @@ export interface VKResponse {
     error?: {
         error_msg: string;
         error_code: number;
-        request_params: Array<{ key: string, value: string }>;
-    },
+        request_params: Array<{ key: string; value: string }>;
+    };
     response?: any;
 }
 
@@ -41,7 +41,7 @@ export interface VKPost {
     owner_id: number;
     date: number;
     marked_as_ads: 0 | 1;
-    post_type: 'post'
+    post_type: 'post';
     text: string;
     can_pin: 0 | 1;
     attachments: Array<VKAttachment>;
@@ -53,22 +53,22 @@ export interface VKAttachment {
 }
 
 export interface VKPhoto extends VKAttachment {
-    type: 'photo',
+    type: 'photo';
     photo: {
         id: number;
         album_id: number;
         owner_id: number;
         user_id: number;
-        sizes: Array<{ type: string, url: string, width: number, height: number }>
+        sizes: Array<{ type: string; url: string; width: number; height: number }>;
         text: string;
         date: number;
         post_id: number;
         access_key: string;
-    }
+    };
 }
 
 export interface VKAudio extends VKAttachment {
-    type: 'audio',
+    type: 'audio';
     audio: {
         artist: string;
         id: number;
@@ -81,7 +81,7 @@ export interface VKAudio extends VKAttachment {
             duration: string;
             account_age_type: string;
             paid22: string;
-        },
+        };
         is_licensed: boolean;
         track_code: string;
         url: string;
@@ -100,8 +100,8 @@ export interface VKAudio extends VKAttachment {
                 photo_270: string;
                 photo_300: string;
                 photo_600: string;
-            }
-        },
+            };
+        };
         main_artists: [
             {
                 name: string;
@@ -110,8 +110,8 @@ export interface VKAudio extends VKAttachment {
                 domain: string;
                 id: string;
             }
-        ]
-    }
+        ];
+    };
 }
 
 export interface VKVideo extends VKAttachment {
@@ -137,7 +137,7 @@ export interface VKVideo extends VKAttachment {
         can_add: 0 | 1;
         track_code: string;
         type: 'video';
-    }
+    };
 }
 
 export interface VKDoc extends VKAttachment {
@@ -151,10 +151,10 @@ export interface VKDoc extends VKAttachment {
         url: string;
         date: number;
         type: number;
-        preview: { [key: string]: any; }
+        preview: { [key: string]: any };
         is_licensed: 0 | 1;
         access_key: string;
-    }
+    };
 }
 
 export interface VKPodcast extends VKAttachment {
@@ -173,10 +173,10 @@ export interface VKLink extends VKAttachment {
         button?: {
             title: string;
             action: {
-                type: 'open_url' | '',
+                type: 'open_url' | '';
                 url: string;
-            }
-        }
-    }
+            };
+        };
+    };
 }
 //#endregion VK

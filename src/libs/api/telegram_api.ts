@@ -2,7 +2,7 @@ import request = require('request');
 import queryString = require('query-string');
 import { TelegramResponse } from '../../interfaces';
 
-let API_GATEWAY = 'https://api.telegram.org';
+const API_GATEWAY = 'https://api.telegram.org';
 
 export = class TelegramAPI {
     private readonly token: string;
@@ -30,18 +30,18 @@ export = class TelegramAPI {
         */
         chatID = '@' + chatID.replace('@', '');
         return new Promise((resolve, reject) => {
-            let hashTags = text.match(new RegExp('(?:\s|^)?#[A-Za-z0-9\-\.\_]+(?:\s|$)', 'gi')) || [];
-            let fixedHashTags = hashTags
+            const hashTags = text.match(new RegExp('(?:\s|^)?#[A-Za-z0-9\-\.\_]+(?:\s|$)', 'gi')) || [];
+            const fixedHashTags = hashTags
                 .map(tag => tag
                     .replace(new RegExp('_', 'g'), '\\_')
-                    .replace(new RegExp('*', 'g'), '\\*')
+                    .replace(new RegExp('[*]', 'g'), '\\*')
                 );
 
             this.call('sendMessage', {
-                chat_id: chatID, text: text
+                chatId: chatID, text: text
                     .split(' ')
                     .map(word => { if (hashTags.includes(word)) return fixedHashTags[hashTags.indexOf(word)]; else return word; })
-                    .join(' '), parse_mode: 'Markdown'
+                    .join(' '), parseMode: 'Markdown'
             })
                 .then(data => resolve(data))
                 .catch(err => reject(`Error sending message to chat ${err}`));
@@ -51,7 +51,7 @@ export = class TelegramAPI {
     sendPhoto(url: string, chatID: string) {
         chatID = '@' + chatID.replace('@', '');
         return new Promise((resolve, reject) => {
-            this.call('sendPhoto', { chat_id: chatID, photo: url })
+            this.call('sendPhoto', { chatId: chatID, photo: url })
                 .then(data => resolve(data))
                 .catch(err => reject(`Error sending photo to chat ${err}`));
         });
@@ -60,7 +60,7 @@ export = class TelegramAPI {
     sendAudio(url: string, chatID: string) {
         chatID = '@' + chatID.replace('@', '');
         return new Promise((resolve, reject) => {
-            this.call('sendAudio', { chat_id: chatID, audio: url })
+            this.call('sendAudio', { chatId: chatID, audio: url })
                 .then(data => resolve(data))
                 .catch(err => reject(`Error sending audio to chat ${err}`));
         });
@@ -75,10 +75,10 @@ export = class TelegramAPI {
         });
     }
 
-    sendDocument(url: string, access_key: string, chatID: string) {
+    sendDocument(url: string, accessKey: string, chatID: string) {
         chatID = '@' + chatID.replace('@', '');
         return new Promise((resolve, reject) => {
-            this.call('sendDocument', { chat_id: chatID, document: `${url}&access_key=${access_key}` })
+            this.call('sendDocument', { chatId: chatID, document: `${url}&access_key=${accessKey}` })
                 .then(data => resolve(data))
                 .catch(err => reject(`Error sending document to telegram chat ${err}`));
         });

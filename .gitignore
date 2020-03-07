@@ -6,3 +6,4 @@ db.json
 package-lock.json
 yarn.lock
 src/**/*.js
+**/*.swp

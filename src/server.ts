@@ -6,13 +6,13 @@ import { VKPost, DBScheme } from './interfaces';
 import TelegramAPI = require('./libs/api/telegram_api');
 import config from './config';
 import { QueueManager, getTimestamp } from './libs/utils';
-let queueManager = new QueueManager();
+const queueManager = new QueueManager();
 
 import low = require('lowdb');
 import FileSync = require('lowdb/adapters/FileSync');
 
-let adapter = new FileSync<DBScheme>('db.json');
-export let db = low(adapter);
+const adapter = new FileSync<DBScheme>('db.json');
+export const db = low(adapter);
 db.defaults({
     queue: {
         tasks: {}
@@ -21,9 +21,9 @@ db.defaults({
 })
     .write();
 
-export let discord = new Discord.Client();
-export let vk_parser = new VKParser({ token: config.VK_API_KEY, groupID: config.VK_GROUP_ID });
-export let telegram = new TelegramAPI(config.TELEGRAM_API_KEY);
+export const discord = new Discord.Client();
+export const vkParser = new VKParser({ token: config.VK_API_KEY, groupID: config.VK_GROUP_ID });
+export const telegram = new TelegramAPI(config.TELEGRAM_API_KEY);
 
 import fs from 'fs';
 
@@ -32,12 +32,12 @@ discord.on('ready', () => {
 });
 discord.on('message', msg => {
     if (msg.channel.type == 'text' && msg.member.roles.has(config.DISCORD_ADMIN_ROLE) && msg.member.user != discord.user) {
-        let args = msg.content.split(' ');
+        const args = msg.content.split(' ');
         switch (args[0]) {
             case '$set':
                 if (args[1] == 'channel') {
                     if (args[2]) {
-                        let newChannel = discord.guilds.first().channels.find(channel => channel.name == args[2]) || discord.guilds.first().channels.find(channel => channel.name == args[2].replace('#', ''));
+                        const newChannel = discord.guilds.first().channels.find(channel => channel.name == args[2]) || discord.guilds.first().channels.find(channel => channel.name == args[2].replace('#', ''));
                         if (newChannel) {
                             config.DISCORD_CHANNEL_NAME = newChannel.name;
                             fs.writeFileSync('./config.ts', fs.readFileSync('./config.ts', 'utf8').replace(new RegExp('DISCORD_CHANNEL_NAME: \'([^\s]+)\''), `DISCORD_CHANNEL_NAME: '${newChannel}'`))
@@ -53,7 +53,7 @@ discord.on('message', msg => {
 
                 if (args[1] == 'rate') {
                     if (args[2]) {
-                        let time = parseInt(args[2]);
+                        const time = parseInt(args[2]);
                         if (time) {
                             config.VK_CHECK_RATE = time;
                             fs.writeFileSync('./config.ts', fs.readFileSync('./config.ts', 'utf8').replace(new RegExp('VK_CHECK_RATE: \'([^\s]+)\''), `VK_CHECK_RATE: '${time}'`))
@@ -85,9 +85,9 @@ discord.on('message', msg => {
 });
 discord.login(config.DISCORD_API_KEY);
 
-vk_parser.ee.on('ready', () => console.log('Начали слушать группу в ВК'));
-vk_parser.ee.on('error', err => console.error(`Произошла ошибка ${err}! Ошибка: ${JSON.stringify(err)}`));
-vk_parser.ee.on('newPost', (post: VKPost) => {
+vkParser.ee.on('ready', () => console.log('Начали слушать группу в ВК'));
+vkParser.ee.on('error', err => console.error(`Произошла ошибка ${err}! Ошибка: ${JSON.stringify(err)}`));
+vkParser.ee.on('newPost', (post: VKPost) => {
     console.log('Check new posts.');
     queueManager.retryQueue();
     if (!queueManager.hasPostInQueue(post.id)) {
@@ -98,6 +98,6 @@ vk_parser.ee.on('newPost', (post: VKPost) => {
     }
 });
 
-let app = express();
+const app = express();
 app.get('/', (req, res) => res.send('Samara Sila'));
 app.listen(config.PORT, () => console.log(`SITC Admin app listening on port ${config.PORT}`));
