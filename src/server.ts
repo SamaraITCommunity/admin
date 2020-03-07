@@ -1,5 +1,6 @@
 require('dotenv').config();
 import Discord = require('discord.js');
+import express = require('express');
 import VKParser = require('./libs/api/vk_api');
 import { VKPost, DBScheme } from './interfaces';
 import TelegramAPI = require('./libs/api/telegram_api');
@@ -96,3 +97,7 @@ vk_parser.ee.on('newPost', (post: VKPost) => {
         queueManager.addToQueue('github', post, true);
     }
 });
+
+let app = express();
+app.get('/', (req, res) => res.send('Samara Sila'));
+app.listen(config.PORT, () => console.log(`SITC Admin app listening on port ${config.PORT}`));

@@ -14,6 +14,8 @@ export = {
     GITHUB_REPO_NAME: process.env.GITHUB_REPO_NAME,
     GITHUB_API_KEY: process.env.GITHUB_API_KEY,
 
+    PORT: process.env.PORT,
+
     text: {
         github: {
             TEMPLATE: '+++ title = "%title%" date = %date.YYYY[-]MM[-]DD% description = "%description%" +++\n\n%photos%',
