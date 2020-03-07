@@ -8,7 +8,7 @@ import { db } from '../../server';
 import { getTimestamp } from '../utils';
 import config = require('../../config');
 
-let API_GATEWAY = 'https://api.vk.com/method';
+const API_GATEWAY = 'https://api.vk.com/method';
 
 export = class VKParser {
     private readonly token: string;
@@ -31,8 +31,8 @@ export = class VKParser {
     }
 
     getPosts(values: {
-        /** owner_id обязано быть отрицательным! */
-        owner_id: number;
+        /** ownerId обязано быть отрицательным! */
+        ownerId: number;
         count?: number;
         filter?: 'owner';
         extended?: 0 | 1;
@@ -45,7 +45,7 @@ export = class VKParser {
         });
     }
 
-    constructor(values: { token: string, groupID: number }) {
+    constructor(values: { token: string; groupID: number }) {
         this.token = values.token;
         this.groupID = -Math.abs(values.groupID);
 
@@ -54,10 +54,10 @@ export = class VKParser {
         }, 1000 * 2);
 
         setInterval(() => {
-            this.getPosts({ owner_id: this.groupID })
+            this.getPosts({ ownerId: this.groupID })
                 .then(data => {
           //console.log(`Get posts received data: ${JSON.stringify(data)}.`);
-                    let checkTime = getTimestamp();
+                    const checkTime = getTimestamp();
                     console.log(`Check Time: ${JSON.stringify(checkTime)} and items length is ${data.items.length} and last check time is: ${this.lastCheckTime}.`);
                     if (data.items.length > 0)
                         console.log('There are items.');

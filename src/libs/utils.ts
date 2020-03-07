@@ -26,13 +26,13 @@ export function getBufferFromImageURL(url: string) {
 
 export function replaceAll(text: string, search: string, replacement: string) {
     return text.replace(new RegExp(search, 'g'), replacement);
-};
+}
 
 export function randomString(length: number) {
-    var result = '';
-    var characters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789';
-    var charactersLength = characters.length;
-    for (var i = 0; i < length; i++) {
+    let result = '';
+    const characters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789';
+    const charactersLength = characters.length;
+    for (let i = 0; i < length; i++) {
         result += characters.charAt(Math.floor(Math.random() * charactersLength));
     }
     return result;
@@ -41,13 +41,13 @@ export function randomString(length: number) {
 export class QueueManager {
     hasPostInQueue(postID: number) {
         console.log(`Check post with id: ${postID} in the queue.`);
-        let queue = db.get('queue');
+        const queue = db.get('queue');
         return !queue.get('tasks').find(t => t.post.id == postID).isUndefined().value();
     }
 
     retryQueue() {
         console.log('Retry queue.');
-        let queue = db.get('queue');
+        const queue = db.get('queue');
         Object.keys(queue.get('tasks').value()).forEach(key => {
             this.handle(queue.get('tasks').get(key).value());
             console.log(`Попытался отправить ${key} ещё раз`);
@@ -55,14 +55,14 @@ export class QueueManager {
     }
 
     addToQueue(social: 'telegram' | 'discord' | 'github', post: VKPost, handleImmediately?: boolean) {
-        let queue = db.get('queue');
-        let newID = randomString(16);
+        const queue = db.get('queue');
+        const newID = randomString(16);
         queue.get('tasks').set(newID, { id: newID, social: social, post: post }).write();
         if (handleImmediately) this.handle({ id: newID, social: social, post: post });
     }
 
     handle(task: Task) {
-        let queue = db.get('queue');
+        const queue = db.get('queue');
         if (task.social == 'github') {
             if (!config.GITHUB_API_KEY || !config.GITHUB_REPO_NAME || !config.GITHUB_USERNAME) {
                 console.log('Источник "GitHub" не подключен. Пропускаем.');
@@ -70,17 +70,17 @@ export class QueueManager {
                 return;
             }
 
-            let post = task.post;
+            const post = task.post;
 
             let gitText = replaceAll(post.text, '@samara_it_community', '');
-            let check = gitText.match(/\S*\|[^|]*\]/g);
+            const check = gitText.match(/\S*\|[^|]*\]/g);
             if (check) check.forEach(reg => {
-                let url = reg.replace('[', '').replace(']', '').split('|')[0];
-                let desc = reg.replace('[', '').replace(']', '').split('|')[1];
+                const url = reg.replace('[', '').replace(']', '').split('|')[0];
+                const desc = reg.replace('[', '').replace(']', '').split('|')[1];
                 gitText = gitText.replace(reg, `[${desc}](https://vk.com/${url})`);
             });
-            let date = new Date();
-            let id = randomString(16);
+            const date = new Date();
+            const id = randomString(16);
 
             let photos = '';
             if (post.attachments) if (post.attachments.length > 0) photos = post.attachments.filter(a => a.type == 'photo').map((p: VKPhoto) => `\n\n![Alt](${p.photo.sizes[p.photo.sizes.length - 1].url})`).join('');
@@ -117,16 +117,16 @@ export class QueueManager {
                 return;
             }
 
-            let promiseList = new Array<Promise<any>>();
+            const promiseList = new Array<Promise<any>>();
 
-            let post = task.post;
+            const post = task.post;
             if (post.text) {
                 let tgText = replaceAll(post.text, '@samara_it_community', '');
-                let check = tgText.match(/\S*\|[^|]*\]/g);
+                const check = tgText.match(/\S*\|[^|]*\]/g);
 
                 if (check) check.forEach(reg => {
-                    let url = reg.replace('[', '').replace(']', '').split('|')[0];
-                    let desc = reg.replace('[', '').replace(']', '').split('|')[1];
+                    const url = reg.replace('[', '').replace(']', '').split('|')[0];
+                    const desc = reg.replace('[', '').replace(']', '').split('|')[1];
                     tgText = tgText.replace(reg, `[${desc}](https://vk.com/${url})`);
                 });
                 console.log(`Going to send message: ${tgText} to channel: ${config.TELEGRAM_CHANNEL_ID}`);
@@ -143,8 +143,7 @@ export class QueueManager {
                             }
                             break;
                         case 'photo':
-                            let url = attach.photo.sizes[attach.photo.sizes.length - 1].url;
-                            promiseList.push(telegram.sendPhoto(url, config.TELEGRAM_CHANNEL_ID));
+                            promiseList.push(telegram.sendPhoto(attach.photo.sizes[attach.photo.sizes.length - 1].url, config.TELEGRAM_CHANNEL_ID));
                             break;
                         case 'video':
                             promiseList.push(telegram.sendVideo(attach.video.owner_id, attach.video.id, attach.video.access_key, config.TELEGRAM_CHANNEL_ID));
@@ -176,20 +175,20 @@ export class QueueManager {
                 return;
             }
 
-            let promiseList = new Array<Promise<any>>();
+            const promiseList = new Array<Promise<any>>();
 
-            let channel = discord.guilds.first().channels.find(channel => channel.name == config.DISCORD_CHANNEL_NAME) as Discord.TextChannel;
-            let post = task.post;
+            const channel = discord.guilds.first().channels.find(channel => channel.name == config.DISCORD_CHANNEL_NAME) as Discord.TextChannel;
+            const post = task.post;
             if (!channel) {
                 console.log(`Failed to find channel: ${config.DISCORD_CHANNEL_NAME}`);
             }
             if (post.text && channel) {
                 console.log(`Going to post ${JSON.stringify(post)} to a channel ${JSON.stringify(channel)}`);
                 let discordText = replaceAll(post.text, '@samara_it_community', '');
-                let check = discordText.match(/\S*\|[^|]*\]/g);
+                const check = discordText.match(/\S*\|[^|]*\]/g);
 
                 if (check) check.forEach(reg => {
-                    let url = reg.replace('[', '').replace(']', '').split('|')[0];
+                    const url = reg.replace('[', '').replace(']', '').split('|')[0];
                     discordText = discordText.replace(reg, `https://vk.com/${url}`);
                 });
                 promiseList.push(channel.send(discordText));
@@ -204,8 +203,7 @@ export class QueueManager {
                             );
                             break;
                         case 'photo':
-                            let url = attach.photo.sizes[attach.photo.sizes.length - 1].url;
-                            promiseList.push(channel.send('', { file: url }));
+                            promiseList.push(channel.send('', { file: attach.photo.sizes[attach.photo.sizes.length - 1].url}));
                             break;
                         case 'video':
                             promiseList.push(channel.send(`Видео: https://vk.com/video?z=video${attach.video.owner_id}_${attach.video.id}&access_key=${attach.video.access_key}`));
@@ -230,6 +228,4 @@ export class QueueManager {
                 .catch(err => console.error(`Произошла ошибка при отправке сообщения в Discord! Ошибка: ${err}`));
         }
     }
-
-    constructor() { }
 }

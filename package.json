@@ -10,6 +10,10 @@
     "@types/lowdb": "^1.0.9",
     "@types/moment": "^2.13.0",
     "@types/request": "^2.48.3",
+    "@typescript-eslint/eslint-plugin": "^2.22.0",
+    "@typescript-eslint/parser": "^2.22.0",
+    "eslint": "^6.8.0",
+    "prettier": "1.19.1",
     "typescript": "^3.6.4"
   },
   "dependencies": {
@@ -29,6 +33,7 @@
     "start": "npm run serve",
     "serve": "node src/server.js",
     "watch-node": "nodemon src/server.js",
-    "watch-ts": "tsc -w"
+    "watch-ts": "tsc -w",
+    "lint": "tsc --noEmit && eslint \"**/*.ts\" --quiet --fix"
   }
 }
