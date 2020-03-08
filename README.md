@@ -6,21 +6,30 @@
 ### Размещение постов из [VK](https://vk.com/samara_it_community):
 
 ✔️ Push в [репозиторий сайта sitc.community](https://github.com/SamaraITCommunity/site).
+
 ❌ Публикация в twitter.
+
 ✔️ Публикация в [telegram-канале](t.me/Samara_IT_Community).
+
 ✔️ Публикация в [Discord](https://discord.gg/Vtnrgym).
+
 ✔️ Упоминания сообществ и людей (‘@’ ‘*’).
+
 ✔️ Очищать теги от `@samara_it_community`.
+
 ⚠️ Поддержка подкастов (ограниченная поддержка).
+
 ⚠️ Поддержка статей и их превью (ограниченная поддержка).
+
 ✔️ Для хранения изображений используется LFS или внешний сервис (все изображения хранятся только на серверах ВК).
+
 
 ## Ввод в эксплуатацию
 
 1. Создать и заполнить `.env` файл согласно `config.ts`
-1. Установить [YARN](https://yarnpkg.com/getting-started/install/) (опционально).
-1. Установить TS-NODE - `yarn global add ts-node` / `npm i -g ts-node`.
-1. Запустить - `yarn start`
+1. Установить [YARN](https://yarnpkg.com/getting-started/install/) (можно NPM).
+1. Установить зависимости - `yarn/npm install`.
+1. Запустить - `yarn serve` or `npm run serve`
 
 ### Переменные окружения
 
