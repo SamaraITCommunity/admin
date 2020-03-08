@@ -1,6 +1,5 @@
 # Бот администратор самарского айти сообщества
-[![Build Status](https://travis-ci.com/SamaraITCommunity/admin.svg?branch=master)](https://travis-ci.com/SamaraITCommunity/admin)
-![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2SamaraITCommunity%2Fadmin.svg?type=medium)
+![Node CI](https://github.com/SamaraITCommunity/admin/workflows/Node%20CI/badge.svg)
 
 ## Функционал
 
