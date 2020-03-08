@@ -17,5 +17,6 @@ jobs:
           npm install
           npm run build-ts --if-present
           npm run lint
+          npm run test
         env:
           CI: true
