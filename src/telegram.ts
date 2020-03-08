@@ -1,11 +1,18 @@
 import request = require('request');
 import queryString = require('query-string');
-import { TelegramResponse } from '../../interfaces';
+import { Post } from './app';
 
 const API_GATEWAY = 'https://api.telegram.org';
 
-export = class TelegramAPI {
+class Telegram {
     private readonly token: string;
+    private readonly channelId: string;
+
+    constructor(token: string, channelId: string) {
+        this.token = token;
+        channelId = '@' + channelId.replace('@', '');
+        this.channelId = channelId;
+    }
 
     private call(method: string, data: any) {
         return new Promise((resolve, reject) => {
@@ -20,15 +27,26 @@ export = class TelegramAPI {
         });
     }
 
-    sendMessage(text: string, chatID: string) {
-        /* todo: сделать это нормальным
-        Моё решение слишком тучное и глупое. 
-        Задача: найти хэштеги и добавить им ведущий слеш, чтобы парсер игнорировал хэштэги. 
-        Слеш нужно добавить перед всеми _ и * в хэштеге. 
-        Идеальное вариант решения: написать правильное регулярное выражение, в котором будут группы. 
-        Нужно разделить символы и в replace для каждой использовать $1, $2... и заменить это на \\$.
-        */
-        chatID = '@' + chatID.replace('@', '');
+    sendPost(post: Post) {
+        //TODO: Compose one full message.
+        this.sendMessage(post.text);
+        if (post.linkUrl)
+            this.sendMessage(`[Подробнее по ссылкe](${post.linkUrl})`);
+        if (post.articleUrl)
+            this.sendMessage(`[Новая статья в группе.](${post.articleUrl})`);
+        if (post.photoUrl)
+            this.sendPhoto(post.photoUrl);
+        if (post.videoUrl)
+            this.sendMessage(post.videoUrl);
+        if (post.podcastUrl)
+            this.sendMessage(`Подкаст: ${post.podcastUrl}`);
+        if (post.audioUrl)
+            this.sendAudio(post.audioUrl);
+        if (post.documentUrl)
+            this.sendDocument(post.documentUrl);
+    }
+
+    sendMessage(text: string) {
         return new Promise((resolve, reject) => {
             const hashTags = text.match(new RegExp('(?:\s|^)?#[A-Za-z0-9\-\.\_]+(?:\s|$)', 'gi')) || [];
             const fixedHashTags = hashTags
@@ -36,9 +54,8 @@ export = class TelegramAPI {
                     .replace(new RegExp('_', 'g'), '\\_')
                     .replace(new RegExp('[*]', 'g'), '\\*')
                 );
-
             this.call('sendMessage', {
-                chatId: chatID, text: text
+                chatId: this.channelId, text: text
                     .split(' ')
                     .map(word => { if (hashTags.includes(word)) return fixedHashTags[hashTags.indexOf(word)]; else return word; })
                     .join(' '), parseMode: 'Markdown'
@@ -48,43 +65,36 @@ export = class TelegramAPI {
         });
     }
 
-    sendPhoto(url: string, chatID: string) {
-        chatID = '@' + chatID.replace('@', '');
+    sendPhoto(url: string) {
         return new Promise((resolve, reject) => {
-            this.call('sendPhoto', { chatId: chatID, photo: url })
+            this.call('sendPhoto', { chatId: this.channelId, photo: url })
                 .then(data => resolve(data))
                 .catch(err => reject(`Error sending photo to chat ${err}`));
         });
     }
 
-    sendAudio(url: string, chatID: string) {
-        chatID = '@' + chatID.replace('@', '');
+    sendAudio(url: string) {
         return new Promise((resolve, reject) => {
-            this.call('sendAudio', { chatId: chatID, audio: url })
+            this.call('sendAudio', { chatId: this.channelId, audio: url })
                 .then(data => resolve(data))
                 .catch(err => reject(`Error sending audio to chat ${err}`));
         });
     }
 
-    sendVideo(ownerID: number, id: number, accessKey: string, chatID: string) {
-        chatID = '@' + chatID.replace('@', '');
+    sendDocument(url: string) {
         return new Promise((resolve, reject) => {
-            this.sendMessage(`https://vk.com/video?z=video${ownerID}_${id}&access_key=${accessKey}`, chatID)
-                .then(data => resolve(data))
-                .catch(err => reject(`Error sending video to chat ${err}`));
-        });
-    }
-
-    sendDocument(url: string, accessKey: string, chatID: string) {
-        chatID = '@' + chatID.replace('@', '');
-        return new Promise((resolve, reject) => {
-            this.call('sendDocument', { chatId: chatID, document: `${url}&access_key=${accessKey}` })
+            this.call('sendDocument', { chatId: this.channelId, document: url })
                 .then(data => resolve(data))
                 .catch(err => reject(`Error sending document to telegram chat ${err}`));
         });
     }
-
-    constructor(token: string) {
-        this.token = token;
-    }
 }
+
+interface TelegramResponse {
+    ok: boolean;
+    result?: any;
+    description?: string;
+    error_code?: number;
+}
+
+export default Telegram;
