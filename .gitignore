@@ -9,3 +9,7 @@ src/**/*.js
 **/*.swp
 coverage/**
 dist/**
+
+#Added by cargo
+
+/target
