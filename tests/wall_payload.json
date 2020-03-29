@@ -1,0 +1,2121 @@
+{
+  "count": 910,
+  "items": [
+    {
+      "attachments": [
+        {
+          "podcast": {
+            "artist": "Samara IT Community",
+            "date": 1583694236,
+            "duration": 5571,
+            "id": 456239044,
+            "lyrics_id": 446079960,
+            "no_search": 1,
+            "owner_id": -143954349,
+            "podcast_info": {
+              "cover": {
+                "sizes": [
+                  {
+                    "height": 640,
+                    "type": "a",
+                    "url": "https://sun6-16.userapi.com/yiPnqGfv9Y9mX0BYYgMK75hlCbBL-fL2I4zSKQ/9UGQKc4w9oQ.jpg",
+                    "width": 640
+                  },
+                  {
+                    "height": 320,
+                    "type": "c",
+                    "url": "https://sun6-13.userapi.com/7ir95hoJ-4X62ga2Lw3qPmxB3S5m5nit5ZTdlg/70Y4G_1t_zA.jpg",
+                    "width": 320
+                  },
+                  {
+                    "height": 160,
+                    "type": "e",
+                    "url": "https://sun6-19.userapi.com/OeBIirk-2tAKUACDSm7sSWOYIRRiCPos5mnvdw/9-yjPBfGccE.jpg",
+                    "width": 160
+                  },
+                  {
+                    "height": 240,
+                    "type": "b",
+                    "url": "https://sun6-16.userapi.com/GVbJhz76avDvy2p8MsVW3bfHdg8PyNzJiJxRrg/mQpYhRhaMxA.jpg",
+                    "width": 240
+                  },
+                  {
+                    "height": 120,
+                    "type": "d",
+                    "url": "https://sun6-19.userapi.com/v7L8xJM2Zfuqg6x7a5x8yTAHgSfV0IpqVMdE-w/qULb8eRWgZE.jpg",
+                    "width": 120
+                  },
+                  {
+                    "height": 100,
+                    "type": "f",
+                    "url": "https://sun6-16.userapi.com/8ZMdD3l4TrwGKZ742hNv5K9erBw3nkcMAs67HA/iP8D73dASGk.jpg",
+                    "width": 100
+                  },
+                  {
+                    "height": 50,
+                    "type": "h",
+                    "url": "https://sun6-16.userapi.com/CPczozN5jYPvDCoavqn-Q5y4cGpaDx6zgwdX_A/MhFmBfWFEo4.jpg",
+                    "width": 50
+                  },
+                  {
+                    "height": 1400,
+                    "type": "x",
+                    "url": "https://sun6-16.userapi.com/kEZv-GCA6AgWlGbQYj9Sfk9SMuJuMrHpR554GA/FhkJbz7sHAo.jpg",
+                    "width": 1400
+                  }
+                ]
+              },
+              "description": "Ведущие: \nНиколай Сладкий (@nikolasmelui)\nДмитрий Николаев (@nikolaev_dd)\n\nГость: \nАлексей Сундуков\n\nОбсуждаем опытных разработчиков, кому они нужны и как они ходят на собеседования.\n\nСсылки на материалы, упомянутые в выпуске:\nМаксим Дорофеев - \"Эффективность неэффективности\" youtube.com/watch?v=XDF02KmgJFE\nЕгор Бугаенко - \"Микротаскинг или как обмануть начальника?\" youtube.com/watch?v=VLaGrUsCbYo&t=",
+              "plays": 43
+            },
+            "title": "SITCast №18 - Про опытных разработчиков",
+            "track_code": "43097017rLZmpoR8qle_uQiWVB2dj0M",
+            "url": "https://psv4.vkuseraudio.net/c813628/u8542929/audios/f3c21b42b9f4.mp3?extra=IZgmBvc-OJB4z-H4H3HUOt6acaOlIHKVhRG3BU22qpvC6_xvb6uxRWKLDvDDwDfgVYBfMGP8OtZt9t2DIy0L6PDtabtF7LBYkLzvuBb322c44J64gPau5OlYJh9Cb4LPNBtHTZZuMo_Y7FfDUOtpTGQ"
+          },
+          "type": "podcast"
+        }
+      ],
+      "can_delete": 1,
+      "can_pin": 1,
+      "comments": {
+        "can_close": 1,
+        "can_post": 1,
+        "count": 5,
+        "groups_can_post": true
+      },
+      "date": 1583735401,
+      "from_id": -143954349,
+      "id": 2529,
+      "is_favorite": false,
+      "is_pinned": 1,
+      "likes": {
+        "can_like": 0,
+        "can_publish": 1,
+        "count": 10,
+        "user_likes": 1
+      },
+      "marked_as_ads": 0,
+      "owner_id": -143954349,
+      "post_source": {
+        "type": "vk"
+      },
+      "post_type": "post",
+      "postponed_id": 2528,
+      "reposts": {
+        "count": 0,
+        "user_reposted": 0
+      },
+      "text": "Начните неделю с нового выпуска #SITCast ☕\n\nК сожалению выпуск получился отчасти секситским, за что администрация приносит свои извинения слушателям. \n\nОднако мы за свободу слова и отсутсвие цензуры, поэтому публикуем исходную версию записи.",
+      "views": {
+        "count": 1698
+      }
+    },
+    {
+      "attachments": [
+        {
+          "photo": {
+            "access_key": "bdc908bc222ef98cce",
+            "album_id": -7,
+            "date": 1585214232,
+            "id": 457240633,
+            "owner_id": -143954349,
+            "post_id": 2585,
+            "sizes": [
+              {
+                "height": 92,
+                "type": "m",
+                "url": "https://sun9-21.userapi.com/c206728/v206728780/bdd48/I7gZZeA0k5o.jpg",
+                "width": 130
+              },
+              {
+                "height": 92,
+                "type": "o",
+                "url": "https://sun9-14.userapi.com/c206728/v206728780/bdd4d/sQwTfmD3tjY.jpg",
+                "width": 130
+              },
+              {
+                "height": 141,
+                "type": "p",
+                "url": "https://sun9-68.userapi.com/c206728/v206728780/bdd4e/HGaCE-pYTzA.jpg",
+                "width": 200
+              },
+              {
+                "height": 226,
+                "type": "q",
+                "url": "https://sun9-66.userapi.com/c206728/v206728780/bdd4f/aBI8jaID_bA.jpg",
+                "width": 320
+              },
+              {
+                "height": 361,
+                "type": "r",
+                "url": "https://sun9-6.userapi.com/c206728/v206728780/bdd50/dSU7dHJydHY.jpg",
+                "width": 510
+              },
+              {
+                "height": 53,
+                "type": "s",
+                "url": "https://sun9-31.userapi.com/c206728/v206728780/bdd47/ruP0NCHedbA.jpg",
+                "width": 75
+              },
+              {
+                "height": 1414,
+                "type": "w",
+                "url": "https://sun9-53.userapi.com/c206728/v206728780/bdd4c/wLQhEWY0llk.jpg",
+                "width": 2000
+              },
+              {
+                "height": 427,
+                "type": "x",
+                "url": "https://sun9-64.userapi.com/c206728/v206728780/bdd49/MhmrECxlgsw.jpg",
+                "width": 604
+              },
+              {
+                "height": 571,
+                "type": "y",
+                "url": "https://sun9-22.userapi.com/c206728/v206728780/bdd4a/Yy1RFsILLfY.jpg",
+                "width": 807
+              },
+              {
+                "height": 905,
+                "type": "z",
+                "url": "https://sun9-8.userapi.com/c206728/v206728780/bdd4b/MLbieB-6AeQ.jpg",
+                "width": 1280
+              }
+            ],
+            "text": "",
+            "user_id": 100
+          },
+          "type": "photo"
+        },
+        {
+          "link": {
+            "description": "\"30 апреля 2020 года\". IT Jam. Front-end. Прими участие в мероприятии и узнай подробности на Events Portal.",
+            "is_favorite": false,
+            "target": "internal",
+            "title": "\"IT Jam. Front-end\"",
+            "url": "https://epa.ms/IT-Jam-FE"
+          },
+          "type": "link"
+        }
+      ],
+      "can_delete": 1,
+      "can_edit": 1,
+      "can_pin": 1,
+      "comments": {
+        "can_close": 1,
+        "can_post": 1,
+        "count": 3,
+        "groups_can_post": true
+      },
+      "created_by": 8542929,
+      "date": 1585225882,
+      "from_id": -143954349,
+      "id": 2585,
+      "is_favorite": false,
+      "likes": {
+        "can_like": 0,
+        "can_publish": 1,
+        "count": 6,
+        "user_likes": 1
+      },
+      "marked_as_ads": 0,
+      "owner_id": -143954349,
+      "post_source": {
+        "type": "vk"
+      },
+      "post_type": "post",
+      "reposts": {
+        "count": 1,
+        "user_reposted": 0
+      },
+      "signer_id": 4605184,
+      "text": "EPAM представляет новый формат мероприятий – IT Jam!\n\nМитапы этой серии будут проходить каждый месяц и дадут возможность подробно обсудить самые разные направления и технологии.\n \nПервый IT Jam по теме Front-end пройдёт 30 апреля. Регистрация уже открыта 👉🏻 https://epa.ms/IT-Jam-FE\n\n За день до митапа, мы пришлём на указанную при регистрации почту ссылку на стрим.\n \nПодписывайтесь на Telegram-канал: https://epa.ms/IT-Jam-EPAM и узнавайте первыми все новости о предстоящих митапах IT Jam\n\n#мероприятия@samara_it_community",
+      "views": {
+        "count": 511
+      }
+    },
+    {
+      "attachments": [
+        {
+          "photo": {
+            "access_key": "1c0bea464ff6afc4c0",
+            "album_id": -7,
+            "date": 1584970696,
+            "id": 457240631,
+            "owner_id": -143954349,
+            "sizes": [
+              {
+                "height": 73,
+                "type": "m",
+                "url": "https://sun6-16.userapi.com/V2NzlddlsRvNTSZUnWROrixKVXzRhRgFXul9ig/XCg8N3nzAEM.jpg",
+                "width": 130
+              },
+              {
+                "height": 87,
+                "type": "o",
+                "url": "https://sun6-14.userapi.com/zykrl88PDctB3sgYeqYygoGALOrVOvE6qi_jTw/qFpzLdp2eEw.jpg",
+                "width": 130
+              },
+              {
+                "height": 133,
+                "type": "p",
+                "url": "https://sun6-14.userapi.com/8raSs29hRp51fhumCRkduKpMzf_FBqaAp6kyJA/FNv7zmXZw4U.jpg",
+                "width": 200
+              },
+              {
+                "height": 213,
+                "type": "q",
+                "url": "https://sun6-14.userapi.com/OGd289kc7VnlnYnsKzYKWGT4U4C5RwhSaWCxLA/FMtys8jK3ak.jpg",
+                "width": 320
+              },
+              {
+                "height": 340,
+                "type": "r",
+                "url": "https://sun6-14.userapi.com/fjnSt7d3-DDnW6ZbLxJrEb3pilsUhIGkE7W_QA/jQGlGbUxDik.jpg",
+                "width": 510
+              },
+              {
+                "height": 42,
+                "type": "s",
+                "url": "https://sun6-19.userapi.com/xuw2ywSLH1NZTbATdUx6GC5_099Om4qrbAHtAg/EVsjJhJ5R2w.jpg",
+                "width": 75
+              },
+              {
+                "height": 1080,
+                "type": "w",
+                "url": "https://sun6-14.userapi.com/QJGf9FRpSHITypBpshoQVlGYHQuHTVWLTkk2Mg/ut7ulsuBsmA.jpg",
+                "width": 1920
+              },
+              {
+                "height": 340,
+                "type": "x",
+                "url": "https://sun6-14.userapi.com/qz_lPOVueHK7R2Z2B9RfUHFYUMAjczDnSnWYbA/l09lRaZso7Q.jpg",
+                "width": 604
+              },
+              {
+                "height": 454,
+                "type": "y",
+                "url": "https://sun6-16.userapi.com/orQZAHVc8snz--tS1kD2LZTc2uKY3h1EPcxpYA/H79xoUafSoQ.jpg",
+                "width": 807
+              },
+              {
+                "height": 720,
+                "type": "z",
+                "url": "https://sun6-16.userapi.com/lmHWaZFZr1F7R5RCJiBG9RHjJkKhtXxJYHs6pg/250U_VM-D3k.jpg",
+                "width": 1280
+              }
+            ],
+            "text": "",
+            "user_id": 100
+          },
+          "type": "photo"
+        },
+        {
+          "link": {
+            "description": "Независимое сообщество самарских \"мобильщиков\".",
+            "is_favorite": false,
+            "photo": {
+              "album_id": -25,
+              "date": 1584971896,
+              "id": 457296023,
+              "owner_id": 2000009912,
+              "sizes": [
+                {
+                  "height": 130,
+                  "type": "m",
+                  "url": "https://sun9-56.userapi.com/c855236/v855236387/21b4cf/hefwVKk8LHk.jpg",
+                  "width": 130
+                },
+                {
+                  "height": 260,
+                  "type": "p",
+                  "url": "https://sun9-15.userapi.com/c855236/v855236387/21b4d1/l5iEk34vwCA.jpg",
+                  "width": 260
+                },
+                {
+                  "height": 75,
+                  "type": "s",
+                  "url": "https://sun9-20.userapi.com/c855236/v855236387/21b4ce/9O1heZbF1xU.jpg",
+                  "width": 75
+                },
+                {
+                  "height": 150,
+                  "type": "x",
+                  "url": "https://sun9-54.userapi.com/c855236/v855236387/21b4d0/3GXqKqKEpZk.jpg",
+                  "width": 150
+                }
+              ],
+              "text": ""
+            },
+            "target": "internal",
+            "title": "SITC.Mobile",
+            "url": "https://t.me/sitc_mobile"
+          },
+          "type": "link"
+        }
+      ],
+      "can_delete": 1,
+      "can_pin": 1,
+      "comments": {
+        "can_close": 1,
+        "can_post": 1,
+        "count": 0,
+        "groups_can_post": true
+      },
+      "date": 1585031400,
+      "from_id": -143954349,
+      "id": 2582,
+      "is_favorite": false,
+      "likes": {
+        "can_like": 0,
+        "can_publish": 1,
+        "count": 4,
+        "user_likes": 1
+      },
+      "marked_as_ads": 0,
+      "owner_id": -143954349,
+      "post_source": {
+        "type": "vk"
+      },
+      "post_type": "post",
+      "postponed_id": 2581,
+      "reposts": {
+        "count": 1,
+        "user_reposted": 0
+      },
+      "signer_id": 14490831,
+      "text": "С каждым днем все больше людей переходит на светлую сторону удаленки. А мы не теряем надежды, что в ближайшую неделю коронавирус покинет нашу планету, и все будущие эвенты будут в силе 😷\n\nПока верим и ждем, расскажем про еще одного спикера первого митапа SITC.Mobile — Александр Егоров из Redmadrobot. Больше 3 лет он активно занимался нативной разработкой под Android, далее перешел на темную сторону силы и начал параллельно увлекаться кросс-платформой. Уже около 2 лет он разрабатывает проекты на React Native и с недавних пор развивает локальное независимое сообщество мобильщиков в Самаре SITC.Mobile.\n\nНа докладе Саша ответит на важный вопрос — почему от React Native столько негатива? Почему каждый раз, когда вы заведете разговор про React Native, вас спросят — \"А почему не Flutter?\". С какими проблемами сейчас сталкиваются разработчики RN? Насколько динамично развивается сам фреймворк и куда он движется? Об этом и многом другом мы услышим на первом [club192603614|Meetup мобильных разработчиков в Самаре] . \n\nЛучший способ связаться с Сашей — вступить в чатик: https://t.me/sitc_mobile\n\nИ, самое главное, не забывайте регистрироваться на митап — https://sitc-mobile.ru/\n\n#мероприятия@samara_it_community",
+      "views": {
+        "count": 449
+      }
+    },
+    {
+      "can_delete": 1,
+      "can_pin": 1,
+      "comments": {
+        "can_close": 1,
+        "can_post": 1,
+        "count": 0,
+        "groups_can_post": true
+      },
+      "date": 1584970200,
+      "from_id": -143954349,
+      "id": 2579,
+      "is_favorite": false,
+      "likes": {
+        "can_like": 0,
+        "can_publish": 1,
+        "count": 1,
+        "user_likes": 1
+      },
+      "marked_as_ads": 0,
+      "owner_id": -143954349,
+      "post_source": {
+        "type": "vk"
+      },
+      "post_type": "post",
+      "postponed_id": 2577,
+      "reposts": {
+        "count": 0,
+        "user_reposted": 0
+      },
+      "signer_id": 234794,
+      "text": "Группа «Кронштадт» приглашает Lead Python Developer (fullstack) в команду, которая занимается разработкой софта для ситуационных центров и систем поддержки принятия решений. \n \nСуть проекта: \n• обработка больших потоков данных \n• отображение текущей, моделируемой и прогнозируемой ситуации на море и в воздухе; \n• автоматизация работы пользователей с информацией и выполнения функций системы поддержки принятия решений. \n\nЗадачи: \n• создавать сервис-ориентированные архитектурные решения; \n• реализовывать модули взаимодействия между сервисами, приложениями и серверами; \n• проводить ревью кода команды; \n• проектировать и разрабатывать backend сервисы(Python) и front-end приложений(Vue.JS); \n• создавать новые сервисы, и реализовывать сервис-ориентированные подходы; \n• создавать БД(PostgreSql) в зоне разработки своих сервисов. \n \nВы подходите, если у вас есть: \n• уверенные знания Python и JS/Typescript; \n• опыт создания и проектирования сервисов/серверных приложений и web-сервисов; \n• опыт работы с СУБД (PostgreSQL); \n• знание принципов MQ (RabbitMQ и пр.); \n• умение писать понятный и простой код, разбираться и работать с чужим кодом; \n• глубокое понимание принципов ООП и умение использовать их на практике. \n \nЧто предлагает компания: \n• при желании возможность занять роль тим-лида в команде и выполнять техническое руководство; \n• абсолютно новый, приятный офис в г. Самара. (ул.Луначарского, рядом с музеем «Самара космическая»); Есть парковка и свободные места; \n• гибкий подход к графику работы; \n• соблюдение всех норм ТК РФ; \n• добровольное медицинское страхование; \n• возможность проходить обучение, повышать квалификацию, участвовать в митапах и профильных мероприятиях. \n\nВопросы в телеграмм @juliakronshtadt ; job@kronshtadt.ru\n\n#вакансии@samara_it_community",
+      "views": {
+        "count": 535
+      }
+    },
+    {
+      "attachments": [
+        {
+          "link": {
+            "caption": "docs.google.com",
+            "description": "Мастер-класс на по теме \"Статический анализ: как ошибаются программисты?\" Ведущий - Павел Шляк, студент НИУ ВШЭ и информационный партнёр PVS-Studio. Находил и исправлял баги во многих Open Source проектах, коммитил в репозитории Linux Mint, LxQt, Transmission, Intel, Steinberg и многих других компаний. Рассмотрим типичные ошибки в коде, причины их появления и паттерны, которые позволят их избежать. Рассмотрим практический поиск багов и использование анализатора. Пожалуйста, по возможности берите ноутбуки или смартфоны",
+            "is_favorite": false,
+            "photo": {
+              "album_id": -25,
+              "date": 1584716508,
+              "id": 457293893,
+              "owner_id": 2000008634,
+              "sizes": [
+                {
+                  "height": 480,
+                  "type": "k",
+                  "url": "https://sun9-45.userapi.com/c857132/v857132912/126545/fFE90RFkWhI.jpg",
+                  "width": 1074
+                },
+                {
+                  "height": 240,
+                  "type": "l",
+                  "url": "https://sun9-66.userapi.com/c857132/v857132912/126544/IwALxoTYLpc.jpg",
+                  "width": 537
+                },
+                {
+                  "height": 70,
+                  "type": "m",
+                  "url": "https://sun9-32.userapi.com/c857132/v857132912/126541/W46wux094Fw.jpg",
+                  "width": 130
+                },
+                {
+                  "height": 140,
+                  "type": "p",
+                  "url": "https://sun9-56.userapi.com/c857132/v857132912/126543/Cx31dhOJnI4.jpg",
+                  "width": 260
+                },
+                {
+                  "height": 39,
+                  "type": "s",
+                  "url": "https://sun9-8.userapi.com/c857132/v857132912/126540/pp_qPxZNj_o.jpg",
+                  "width": 75
+                },
+                {
+                  "height": 80,
+                  "type": "x",
+                  "url": "https://sun9-5.userapi.com/c857132/v857132912/126542/QXrJ0aYl5Ss.jpg",
+                  "width": 150
+                }
+              ],
+              "text": ""
+            },
+            "title": "Регистрация на мастер-класс",
+            "url": "https://docs.google.com/forms/d/e/1FAIpQLScyRU-xfb9w4K4q4B29zCjlg0UAcU65SMjCSzGmCbkgWLtJVg/viewform?usp=sf_link"
+          },
+          "type": "link"
+        }
+      ],
+      "can_delete": 1,
+      "can_pin": 1,
+      "comments": {
+        "can_close": 1,
+        "can_post": 1,
+        "count": 0,
+        "groups_can_post": true
+      },
+      "date": 1584945000,
+      "from_id": -143954349,
+      "id": 2578,
+      "is_favorite": false,
+      "likes": {
+        "can_like": 0,
+        "can_publish": 1,
+        "count": 2,
+        "user_likes": 1
+      },
+      "marked_as_ads": 0,
+      "owner_id": -143954349,
+      "post_source": {
+        "type": "vk"
+      },
+      "post_type": "post",
+      "postponed_id": 2576,
+      "reposts": {
+        "count": 0,
+        "user_reposted": 0
+      },
+      "signer_id": 288078078,
+      "text": "Открытый мастер-класс по статическим анализаторам кода (25 марта в офисе REG.RU, Самара)\n\nБудут рассмотрены вопросы:\n- Самые часто встречающиеся классы ошибок в коде\n- Почему эти ошибки возникают\n- Автоматические средства поиска (потенциальных) ошибок\n\nСпикер: [id288078078|Павел Шляк]\n\nМесто: г. Самара, ул Академика Павлова 35, 5 этаж, кабинет № 6\n\nВремя: 18:30, среда, 25 марта\n\nНастоятельно просим зарегистрироваться на мероприятие, чтобы организаторы могли оценить количество участников:\nhttps://docs.google.com/forms/d/e/1FAIpQLScyRU-xfb9w4K4q4B29zCjlg0UAcU65SMjCSzGmCbkgWLtJVg/viewform?usp=sf_link\n\n#мероприятия@samara_it_community",
+      "views": {
+        "count": 462
+      }
+    },
+    {
+      "attachments": [
+        {
+          "photo": {
+            "access_key": "8757d145b26b42081c",
+            "album_id": -7,
+            "date": 1584637439,
+            "id": 457240630,
+            "owner_id": -143954349,
+            "sizes": [
+              {
+                "height": 73,
+                "type": "m",
+                "url": "https://sun9-2.userapi.com/c854416/v854416928/21d00b/eVZa2prQO70.jpg",
+                "width": 130
+              },
+              {
+                "height": 87,
+                "type": "o",
+                "url": "https://sun9-18.userapi.com/c854416/v854416928/21d00e/qzrshefLvOM.jpg",
+                "width": 130
+              },
+              {
+                "height": 133,
+                "type": "p",
+                "url": "https://sun9-72.userapi.com/c854416/v854416928/21d00f/B-4heXLoKL0.jpg",
+                "width": 200
+              },
+              {
+                "height": 213,
+                "type": "q",
+                "url": "https://sun9-53.userapi.com/c854416/v854416928/21d010/phW2-A6NP7s.jpg",
+                "width": 320
+              },
+              {
+                "height": 340,
+                "type": "r",
+                "url": "https://sun9-48.userapi.com/c854416/v854416928/21d011/IGt6kdF5thQ.jpg",
+                "width": 510
+              },
+              {
+                "height": 42,
+                "type": "s",
+                "url": "https://sun9-36.userapi.com/c854416/v854416928/21d00a/hhQQ83Xm-WE.jpg",
+                "width": 75
+              },
+              {
+                "height": 340,
+                "type": "x",
+                "url": "https://sun9-12.userapi.com/c854416/v854416928/21d00c/QMWchymJiTo.jpg",
+                "width": 604
+              },
+              {
+                "height": 450,
+                "type": "y",
+                "url": "https://sun9-12.userapi.com/c854416/v854416928/21d00d/F9b8UwBM3hY.jpg",
+                "width": 800
+              }
+            ],
+            "text": "",
+            "user_id": 100
+          },
+          "type": "photo"
+        },
+        {
+          "link": {
+            "description": "Говорим про PhpStorm с JetBrains и удаленку со Skyeng",
+            "is_favorite": false,
+            "photo": {
+              "album_id": -27,
+              "date": 1584638373,
+              "id": 457290953,
+              "owner_id": 2000008511,
+              "sizes": [
+                {
+                  "height": 450,
+                  "type": "k",
+                  "url": "https://sun9-65.userapi.com/c206620/v206620486/b1ded/F3I8HPosWXs.jpg",
+                  "width": 800
+                },
+                {
+                  "height": 240,
+                  "type": "l",
+                  "url": "https://sun9-49.userapi.com/c206620/v206620486/b1dec/y2gjPmLAsO4.jpg",
+                  "width": 537
+                },
+                {
+                  "height": 73,
+                  "type": "m",
+                  "url": "https://sun9-24.userapi.com/c206620/v206620486/b1de9/sy0ktDFPnUw.jpg",
+                  "width": 130
+                },
+                {
+                  "height": 146,
+                  "type": "p",
+                  "url": "https://sun9-43.userapi.com/c206620/v206620486/b1deb/VByCC4jxqpE.jpg",
+                  "width": 260
+                },
+                {
+                  "height": 42,
+                  "type": "s",
+                  "url": "https://sun9-41.userapi.com/c206620/v206620486/b1de8/KJzaOa5ArHw.jpg",
+                  "width": 75
+                },
+                {
+                  "height": 84,
+                  "type": "x",
+                  "url": "https://sun9-62.userapi.com/c206620/v206620486/b1dea/Q2_cCvNjaFM.jpg",
+                  "width": 150
+                }
+              ],
+              "text": ""
+            },
+            "target": "internal",
+            "title": "Онлайн-митап с пиццей, ютубом и холиварами голосом",
+            "url": "http://meetups-online.ru/php_i_udalenka"
+          },
+          "type": "link"
+        }
+      ],
+      "can_delete": 1,
+      "can_pin": 1,
+      "comments": {
+        "can_close": 1,
+        "can_post": 1,
+        "count": 0,
+        "groups_can_post": true
+      },
+      "date": 1584685801,
+      "from_id": -143954349,
+      "id": 2573,
+      "is_favorite": false,
+      "likes": {
+        "can_like": 0,
+        "can_publish": 1,
+        "count": 3,
+        "user_likes": 1
+      },
+      "marked_as_ads": 0,
+      "owner_id": -143954349,
+      "post_source": {
+        "platform": "android",
+        "type": "api"
+      },
+      "post_type": "post",
+      "postponed_id": 2572,
+      "reposts": {
+        "count": 0,
+        "user_reposted": 0
+      },
+      "signer_id": 96053139,
+      "text": "Пока сообществам не рекомендуют собираться оффлайн, у наших друзей из скаенга возникла идея встретиться в онлайне. Двое спикеров уже поддержали её докладами. Организаторы протестили штуку для стримов и общения голосом с рандомными зрителями на Youtube (пока она не падала). А ещё они придумали, как организовать пиццу и неформальное общение. \n \nБудет круто, если вы сможете присоединиться к мероприятию: \nhttp://meetups-online.ru/php_i_udalenka \n \nВ нём также поучаствуют другие ИТ-сообщества, так что должно получиться весело!\n\n#мероприятия@samara_it_community",
+      "views": {
+        "count": 472
+      }
+    },
+    {
+      "attachments": [
+        {
+          "photo": {
+            "access_key": "c635eaa18a06681d27",
+            "album_id": -7,
+            "date": 1584428918,
+            "id": 457240629,
+            "owner_id": -143954349,
+            "post_id": 2567,
+            "sizes": [
+              {
+                "height": 130,
+                "type": "m",
+                "url": "https://sun6-13.userapi.com/y5OA3FdWsV8PduQDmPtzgqYiLu5KmXUdhu71XQ/Q4CStJ78sOE.jpg",
+                "width": 130
+              },
+              {
+                "height": 130,
+                "type": "o",
+                "url": "https://sun6-13.userapi.com/y5OA3FdWsV8PduQDmPtzgqYiLu5KmXUdhu71XQ/Q4CStJ78sOE.jpg",
+                "width": 130
+              },
+              {
+                "height": 200,
+                "type": "p",
+                "url": "https://sun6-19.userapi.com/bTFlgIQe5yDZhoqfvZNcWwnBz_jINmeowCAZ_A/qGUGJdAwUjA.jpg",
+                "width": 200
+              },
+              {
+                "height": 320,
+                "type": "q",
+                "url": "https://sun6-16.userapi.com/iOB44StXFM5mNgISG1_mlw0VgZuhRs367uW4sw/BYyLQLX8EJk.jpg",
+                "width": 320
+              },
+              {
+                "height": 510,
+                "type": "r",
+                "url": "https://sun6-16.userapi.com/ZE2Unf8tiA2-6BHOt53IJjv2C5le3XE8bHu1mQ/XSZgKEjvygc.jpg",
+                "width": 510
+              },
+              {
+                "height": 75,
+                "type": "s",
+                "url": "https://sun6-14.userapi.com/vTBPiHGjwMwbjpjnbSbju7HM_6TMGbfr33EGiw/A7TiOaLeSMI.jpg",
+                "width": 75
+              },
+              {
+                "height": 1200,
+                "type": "w",
+                "url": "https://sun6-14.userapi.com/QRoZbV5091a19hYsPdK6GS2jeHe2Rln-8CTZgQ/_sCVco5rayI.jpg",
+                "width": 1200
+              },
+              {
+                "height": 604,
+                "type": "x",
+                "url": "https://sun6-19.userapi.com/VXcRYvv93Hm6ukEnl65BvRikcJXPSF3Lm6noig/jbe9-DdF4CQ.jpg",
+                "width": 604
+              },
+              {
+                "height": 807,
+                "type": "y",
+                "url": "https://sun6-13.userapi.com/yiq8RAbLRnLMBmg6yV3qKUIgrFusjX3fYBYtog/QV6dU4Ivg3E.jpg",
+                "width": 807
+              },
+              {
+                "height": 1080,
+                "type": "z",
+                "url": "https://sun6-13.userapi.com/kPKEY6F5YIGdEwF-5bKXTR1oGfj8rOhIFv0_Yw/WOVkmF3-g90.jpg",
+                "width": 1080
+              }
+            ],
+            "text": "",
+            "user_id": 100
+          },
+          "type": "photo"
+        }
+      ],
+      "can_delete": 1,
+      "can_pin": 1,
+      "comments": {
+        "can_close": 1,
+        "can_post": 1,
+        "count": 0,
+        "groups_can_post": true
+      },
+      "date": 1584444603,
+      "from_id": -143954349,
+      "id": 2567,
+      "is_favorite": false,
+      "likes": {
+        "can_like": 0,
+        "can_publish": 1,
+        "count": 9,
+        "user_likes": 1
+      },
+      "marked_as_ads": 0,
+      "owner_id": -143954349,
+      "post_source": {
+        "type": "vk"
+      },
+      "post_type": "post",
+      "postponed_id": 2566,
+      "reposts": {
+        "count": 2,
+        "user_reposted": 0
+      },
+      "signer_id": 45856350,
+      "text": "Вакансия тестировщика в Scrum-команду для работы над новым проектом. \n \nВ своей работе компания опирается на ценности Agile, что предполагает динамичный темп разработки, а также возможность развития и профессионального роста за рамками своей роли.\n \nТребуемые навыки: функциональное, регрессионное, интеграционное тестирование, умение писать тест-кейсы, тест-планы.\n\nКомпания предлагает: \n- Конкурентоспособную оплату труда (оклад + бонусы каждые полгода), которая обсуждается индивидуально с каждым кандидатом \n- Добровольное медицинское страхование (ДМС +стоматология) \n- Среду для беспрерывного развития: тренинги, вебинары, митапы, внешнее обучение \n- Свободный дресс-код\n\nОстались вопросы? \nНа них готова ответить - [id45856350|Оксана Чагаева] \n \n#вакансии@samara_it_community",
+      "views": {
+        "count": 1853
+      }
+    },
+    {
+      "attachments": [
+        {
+          "photo": {
+            "access_key": "f357eccc7b0bcf768b",
+            "album_id": -7,
+            "date": 1584122084,
+            "id": 457240628,
+            "owner_id": -143954349,
+            "sizes": [
+              {
+                "height": 73,
+                "type": "m",
+                "url": "https://sun6-14.userapi.com/I7EJkNdtX99oFb8fJ_OACkRBettysYqZJxHZCA/QiDmB3b2iuw.jpg",
+                "width": 130
+              },
+              {
+                "height": 87,
+                "type": "o",
+                "url": "https://sun6-16.userapi.com/qn17VFRCLyD2U0hwsZr9KeSzY_sSdB31HVrf9w/w7TySdsFio0.jpg",
+                "width": 130
+              },
+              {
+                "height": 133,
+                "type": "p",
+                "url": "https://sun6-13.userapi.com/pfSg3WB3YhPDOcuDcLaG9nukWsKlZ6oCBY3tFg/PIeg0jeTF4g.jpg",
+                "width": 200
+              },
+              {
+                "height": 213,
+                "type": "q",
+                "url": "https://sun6-19.userapi.com/L3LtftlS12YeIBBltOpxrIg4ld-0cOiJIVWYIg/7NCdDvopIwQ.jpg",
+                "width": 320
+              },
+              {
+                "height": 340,
+                "type": "r",
+                "url": "https://sun6-19.userapi.com/pa3UOz3jiEkuz1QhrOvBRbDUdz6KO71ouQb6EA/LI-l6hzkXOM.jpg",
+                "width": 510
+              },
+              {
+                "height": 42,
+                "type": "s",
+                "url": "https://sun6-19.userapi.com/2bsX8Llmi-HMEa4uBRsyoIGYPlRTfalsKNtjnQ/CUij5aOEy-Q.jpg",
+                "width": 75
+              },
+              {
+                "height": 340,
+                "type": "x",
+                "url": "https://sun6-16.userapi.com/lXZMzbZ5hhpATrnLu05-FfdgzqXBOBkyGoQYiQ/vdNBuV82xpE.jpg",
+                "width": 604
+              },
+              {
+                "height": 454,
+                "type": "y",
+                "url": "https://sun6-19.userapi.com/UUDtZ0gAHmkuK3yLqzGtIXQJXNuILusFerlmfw/-1N5D9KlI1w.jpg",
+                "width": 807
+              },
+              {
+                "height": 720,
+                "type": "z",
+                "url": "https://sun6-14.userapi.com/j_sy47KTOy_ShJp-lMDS5s0zvEXgfN57XAcWfw/ba3B-YGDFmo.jpg",
+                "width": 1280
+              }
+            ],
+            "text": "",
+            "user_id": 100
+          },
+          "type": "photo"
+        },
+        {
+          "link": {
+            "description": "Первый митап Самарского комьюнити мобильных разработчиков 18 апреля 2020 в Yellow Rockets",
+            "is_favorite": false,
+            "target": "internal",
+            "title": "Mobile Meetup Самара — 18 апреля 2020",
+            "url": "https://sitc-mobile.ru/"
+          },
+          "type": "link"
+        }
+      ],
+      "can_delete": 1,
+      "can_pin": 1,
+      "comments": {
+        "can_close": 1,
+        "can_post": 1,
+        "count": 0,
+        "groups_can_post": true
+      },
+      "date": 1584365400,
+      "from_id": -143954349,
+      "id": 2564,
+      "is_favorite": false,
+      "likes": {
+        "can_like": 0,
+        "can_publish": 1,
+        "count": 4,
+        "user_likes": 1
+      },
+      "marked_as_ads": 0,
+      "owner_id": -143954349,
+      "post_source": {
+        "type": "vk"
+      },
+      "post_type": "post",
+      "postponed_id": 2548,
+      "reposts": {
+        "count": 1,
+        "user_reposted": 0
+      },
+      "signer_id": 14490831,
+      "text": "Пока все конференции переезжают в онлайн из-за пандемии коронавируса, мы надеемся на лучшее и продолжаем рассказывать о спикерах первого митапа самарского мобильного комьюнити SITC.Mobile. 😷\n\nСергей Зароченцев прямиком из Москвы расскажет нам про то, что он узнал за 4 года работы разработчиком. Сергей сейчас Expert Android Developer в Райффайзенбанке:\n«Я поделюсь своим опытом и наблюдениями, собранными за 4 года работы Android-разработчиком. Расскажу о самых важных идеях, мыслях и принципах, которые оказали на меня наибольшее влияние. \n \nВ докладе хочется затронуть следующие темы: \n— Перфекционизм, и как с ним бороться \n— Фокус и продуктивность \n— Мотивация. Лучшее место работы \n— Обучение \n— Качество работы \n— Процессы\n\nЯ три года проработал в Redmadrobot. Делал банки, приложения для сотовых операторов и платежных систем. Сейчас работаю в Райффайзенбанке в направлении брокерского обслуживания. Люблю чистый код, архитектуру, тестирование и улучшать процессы. Обожаю учиться и делиться знаниями. Путешествую, увлекаюсь фотографией, занимаюсь скалолазанием.»\n\nСергею можно и нужно писать, например, в запрещенный телеграм, а также подписывайтесь на него в инсте и френдите в не менее запрещенном линкедине:\nhttps://t.me/zsergei\nhttps://www.instagram.com/srg_za/ \nhttps://www.linkedin.com/in/zsergei/\n\nИ, самое главное, не забывайте регистрироваться на митап — https://sitc-mobile.ru/. Мест остается уже совсем немного, мы близки к солдауту (как бы странно это не звучало для бесплатного митапа).\n\n#мероприятия@samara_it_community",
+      "views": {
+        "count": 543
+      }
+    },
+    {
+      "can_delete": 1,
+      "can_pin": 1,
+      "comments": {
+        "can_close": 1,
+        "can_post": 1,
+        "count": 0,
+        "groups_can_post": true
+      },
+      "date": 1584340200,
+      "from_id": -143954349,
+      "id": 2563,
+      "is_favorite": false,
+      "likes": {
+        "can_like": 0,
+        "can_publish": 1,
+        "count": 3,
+        "user_likes": 1
+      },
+      "marked_as_ads": 0,
+      "owner_id": -143954349,
+      "post_source": {
+        "type": "vk"
+      },
+      "post_type": "post",
+      "postponed_id": 2547,
+      "reposts": {
+        "count": 0,
+        "user_reposted": 0
+      },
+      "text": "Требуется сотрудник в техниеский отдел. \nЗадача обслуживание серверов, оргтехники, кабельные линии и т.п.. Начальная зарплата около 40 тысяч. Аттестованная должность. Полный соцпакет. Требуется: желание работать и развиваться, здоровье для прохождения ВВК, отсутствие судимостей (Вас и ближних родственников), армия или военная кафедра. \n\nПо всем вопросам ivanov_rabota70@bk.ru или 89198001340 \n\n#вакансии@samara_it_community",
+      "views": {
+        "count": 771
+      }
+    },
+    {
+      "attachments": [
+        {
+          "poll": {
+            "anonymous": false,
+            "answer_ids": [
+              1224745884
+            ],
+            "answers": [
+              {
+                "id": 1224745882,
+                "rate": 40.18,
+                "text": "Да, после функционала",
+                "votes": 45
+              },
+              {
+                "id": 1224745883,
+                "rate": 1.79,
+                "text": "Да, перед функционалом, но не запускаю до написания функционала",
+                "votes": 2
+              },
+              {
+                "id": 1224745884,
+                "rate": 8.04,
+                "text": "Да, перед функционалом и срзау проверяю что они падают",
+                "votes": 9
+              },
+              {
+                "id": 1224745885,
+                "rate": 25.89,
+                "text": "Не пишу тесты",
+                "votes": 29
+              },
+              {
+                "id": 1224745886,
+                "rate": 0.89,
+                "text": "Их пишут за меня",
+                "votes": 1
+              },
+              {
+                "id": 1224745887,
+                "rate": 23.21,
+                "text": "Я не пишу код, хочу узнать резульат",
+                "votes": 26
+              }
+            ],
+            "author_id": -143954349,
+            "can_edit": false,
+            "can_report": false,
+            "can_share": true,
+            "can_vote": false,
+            "closed": false,
+            "created": 1583939159,
+            "end_date": 1584437400,
+            "friends": [
+              {
+                "id": 8542929
+              },
+              {
+                "id": 45312133
+              },
+              {
+                "id": 581511486
+              }
+            ],
+            "id": 366069534,
+            "is_board": false,
+            "multiple": false,
+            "owner_id": -143954349,
+            "photo": {
+              "color": "400B0B",
+              "id": 457240627,
+              "images": [
+                {
+                  "height": 600,
+                  "url": "https://sun9-11.userapi.com/c858220/v858220365/1a3b55/XkEhWKI5wDQ.jpg",
+                  "width": 952
+                },
+                {
+                  "height": 200,
+                  "url": "https://sun9-20.userapi.com/c858220/v858220365/1a3b59/n9Au_COf1Tk.jpg",
+                  "width": 510
+                },
+                {
+                  "height": 400,
+                  "url": "https://sun9-62.userapi.com/c858220/v858220365/1a3b5a/YpgDJG6JMMc.jpg",
+                  "width": 952
+                },
+                {
+                  "height": 600,
+                  "url": "https://sun9-11.userapi.com/c858220/v858220365/1a3b5b/AOWjAnWqVMM.jpg",
+                  "width": 952
+                },
+                {
+                  "height": 45,
+                  "url": "https://sun9-44.userapi.com/c858220/v858220365/1a3b56/XKamIcqlWvw.jpg",
+                  "width": 100
+                },
+                {
+                  "height": 90,
+                  "url": "https://sun9-31.userapi.com/c858220/v858220365/1a3b57/R3NKSUxQPBs.jpg",
+                  "width": 200
+                },
+                {
+                  "height": 135,
+                  "url": "https://sun9-40.userapi.com/c858220/v858220365/1a3b58/GIyIXIqKSkI.jpg",
+                  "width": 300
+                }
+              ]
+            },
+            "question": "Пишите ли вы тесты?",
+            "votes": 112
+          },
+          "type": "poll"
+        }
+      ],
+      "can_delete": 1,
+      "can_pin": 1,
+      "comments": {
+        "can_close": 1,
+        "can_post": 1,
+        "count": 12,
+        "groups_can_post": true
+      },
+      "date": 1584264600,
+      "from_id": -143954349,
+      "id": 2549,
+      "is_favorite": false,
+      "likes": {
+        "can_like": 0,
+        "can_publish": 1,
+        "count": 3,
+        "user_likes": 1
+      },
+      "marked_as_ads": 0,
+      "owner_id": -143954349,
+      "post_source": {
+        "type": "vk"
+      },
+      "post_type": "post",
+      "postponed_id": 2538,
+      "reposts": {
+        "count": 0,
+        "user_reposted": 0
+      },
+      "text": "В это воскресенье у нас серьёзный опрос для разработчиков 😼",
+      "views": {
+        "count": 1024
+      }
+    },
+    {
+      "can_delete": 1,
+      "can_pin": 1,
+      "comments": {
+        "can_close": 1,
+        "can_post": 1,
+        "count": 0,
+        "groups_can_post": true
+      },
+      "date": 1584088200,
+      "from_id": -143954349,
+      "id": 2544,
+      "is_favorite": false,
+      "likes": {
+        "can_like": 0,
+        "can_publish": 1,
+        "count": 2,
+        "user_likes": 1
+      },
+      "marked_as_ads": 0,
+      "owner_id": -143954349,
+      "post_source": {
+        "type": "vk"
+      },
+      "post_type": "post",
+      "postponed_id": 2541,
+      "reposts": {
+        "count": 0,
+        "user_reposted": 0
+      },
+      "signer_id": 5066495,
+      "text": "Компания: Voltmobi_technology\nЛокация: москва удаленно\nЗ/п: до 120к\nКонтакты: @annyshka_voronina, avoronina@inno.co\n\nОбязанности:\n- проектирование и разработка новых программных продуктов с нуля\n- поддержка существующих продуктов\n- профилирование и оптимизация кода.\n\nТребования:\n- знания, опыт веб–разработки на Ruby / RoR (от 2 лет)\n- опыт работы с Postgresql, нереляционными базами, опыт использования БД под высокими нагрузками приветствуется\n- CSS / LESS / SASS\n- JS и jQuery, опыт работы с одним из современных js фреймворков (angular, react, vue и др.)\n- TDD / BDD при разработке и рефакторинге\n- опыт работы в Unix системах\n- опыт поддержки проектов в production средах.\n\nПриветствуется:\n- знания, опыт веб-разработки Elixir / Phoenix\n- опыт работы со статическим анализаторами исходного кода RuboCop\n- понимание принципов CI / CD\n- опыт работы с системами сбора статистики (NewRelic, Zabbix, др.)\n\nКомпания предлагает:\n- Уровень заработной платы определяется по итогам собеседования\n- Полностью удаленную работу\n- Гибкое начало рабочего дня\n- Профессиональное и карьерное развитие.\n\nО компании: \"Мы создаём мобильные приложения и сложные информационные системы: продумываем концепцию, проектируем, разрабатываем, тестируем, поддерживаем и развиваем. Работаем с Яндексом, Якиторией, Поликлиника.ру, амбициозными стартапами, крупными интеграторами, разрабатываем собственные продукты.\"\n\n#вакансии@samara_it_community",
+      "views": {
+        "count": 780
+      }
+    },
+    {
+      "attachments": [
+        {
+          "photo": {
+            "access_key": "b53582221bee90366e",
+            "album_id": -7,
+            "date": 1583916603,
+            "id": 457240626,
+            "owner_id": -143954349,
+            "post_id": 2539,
+            "sizes": [
+              {
+                "height": 130,
+                "type": "m",
+                "url": "https://sun9-61.userapi.com/c205724/v205724872/9ee61/gjGqnw1f_ek.jpg",
+                "width": 130
+              },
+              {
+                "height": 130,
+                "type": "o",
+                "url": "https://sun9-25.userapi.com/c205724/v205724872/9ee66/Qru_nO7Yx80.jpg",
+                "width": 130
+              },
+              {
+                "height": 200,
+                "type": "p",
+                "url": "https://sun9-9.userapi.com/c205724/v205724872/9ee67/zWDhCEPph0k.jpg",
+                "width": 200
+              },
+              {
+                "height": 320,
+                "type": "q",
+                "url": "https://sun9-15.userapi.com/c205724/v205724872/9ee68/ZCk8ce3ShLg.jpg",
+                "width": 320
+              },
+              {
+                "height": 510,
+                "type": "r",
+                "url": "https://sun9-19.userapi.com/c205724/v205724872/9ee69/ZuoMULkKUu4.jpg",
+                "width": 510
+              },
+              {
+                "height": 75,
+                "type": "s",
+                "url": "https://sun9-6.userapi.com/c205724/v205724872/9ee60/MCPmReG1p6o.jpg",
+                "width": 75
+              },
+              {
+                "height": 1200,
+                "type": "w",
+                "url": "https://sun9-32.userapi.com/c205724/v205724872/9ee65/2WnKntzsgcE.jpg",
+                "width": 1200
+              },
+              {
+                "height": 604,
+                "type": "x",
+                "url": "https://sun9-48.userapi.com/c205724/v205724872/9ee62/95hn7R7ezAg.jpg",
+                "width": 604
+              },
+              {
+                "height": 807,
+                "type": "y",
+                "url": "https://sun9-38.userapi.com/c205724/v205724872/9ee63/ooJlIGV6zY0.jpg",
+                "width": 807
+              },
+              {
+                "height": 1080,
+                "type": "z",
+                "url": "https://sun9-47.userapi.com/c205724/v205724872/9ee64/g8QLmYZAH5Y.jpg",
+                "width": 1080
+              }
+            ],
+            "text": "",
+            "user_id": 100
+          },
+          "type": "photo"
+        }
+      ],
+      "can_delete": 1,
+      "can_pin": 1,
+      "comments": {
+        "can_close": 1,
+        "can_post": 1,
+        "count": 0,
+        "groups_can_post": true
+      },
+      "date": 1584001800,
+      "from_id": -143954349,
+      "id": 2539,
+      "is_favorite": false,
+      "likes": {
+        "can_like": 0,
+        "can_publish": 1,
+        "count": 8,
+        "user_likes": 1
+      },
+      "marked_as_ads": 0,
+      "owner_id": -143954349,
+      "post_source": {
+        "type": "vk"
+      },
+      "post_type": "post",
+      "postponed_id": 2537,
+      "reposts": {
+        "count": 1,
+        "user_reposted": 0
+      },
+      "signer_id": 14883114,
+      "text": "Вакансия: DevOps инженер\nГород: Самара \nЗанятость: полная (5/2, офис) \nЗП: от 100 000 net \n\nСтек технологий: Jenkins, Ansible, Nexus, Elastic Stack, Grafana\n\nЗадачи: \n- Участие в создании и развитии внутренних и внешних сервисов компании \n- Выбор и внедрение DevOps практик и инструментов на всех этапах поставки ПО \n- Развертывание и сопровождение платформы CI\\CD (Jenkins\\Nexus\\Ansible) \n- Участие в выборе технологий и решений в области DevOps \n- Построение пилотных решений и проведение PoC \n\nЧего компания ждёт от вас? \n- Не менее трех лет работы с Windows \\ Linux в роли системного администратора\\ devops-инженера \n- Опыт работы (настройка и конфигурирование) систем CI\\CD \n- Опыт использования систем управления исходным кодом SVN\\GIT \n\nКомпания предлагает: \n- Конкурентоспособную оплату труда (оклад + бонусы каждые полгода), которая обсуждается индивидуально с каждым кандидатом \n- Добровольное медицинское страхование (ДМС + стоматология) \n- Возможность работы с новыми технологиями \n- Среду для беспрерывного развития: тренинги, вебинары, митапы, внешнее обучение \n- Свободный дресс-код \n \nРезюме направляйте на почту Domaevaan@rusfinance.ru, или пишите в личку [id14883114|Анна Домаева] \nТелефон 8-917-016-77-67\n\n#вакансии@samara_it_community",
+      "views": {
+        "count": 1164
+      }
+    },
+    {
+      "attachments": [
+        {
+          "link": {
+            "caption": "www.gridgain.com",
+            "description": "The GridGain In-Memory Computing Platform is a comprehensive solution provides speed and scalability for data intensive applications across any data store",
+            "is_favorite": false,
+            "photo": {
+              "album_id": -26,
+              "date": 1583915502,
+              "id": 457285763,
+              "owner_id": 2000004484,
+              "sizes": [
+                {
+                  "height": 72,
+                  "type": "m",
+                  "url": "https://sun9-41.userapi.com/c857532/v857532812/1a1300/LJHoO1LfFd4.jpg",
+                  "width": 130
+                },
+                {
+                  "height": 87,
+                  "type": "o",
+                  "url": "https://sun9-54.userapi.com/c857532/v857532812/1a1302/dLqU0h1H-pc.jpg",
+                  "width": 130
+                },
+                {
+                  "height": 114,
+                  "type": "p",
+                  "url": "https://sun9-48.userapi.com/c857532/v857532812/1a1303/VZs_S8e2H9I.jpg",
+                  "width": 200
+                },
+                {
+                  "height": 114,
+                  "type": "q",
+                  "url": "https://sun9-22.userapi.com/c857532/v857532812/1a1304/E5pJk1XB5nk.jpg",
+                  "width": 206
+                },
+                {
+                  "height": 114,
+                  "type": "r",
+                  "url": "https://sun9-30.userapi.com/c857532/v857532812/1a1305/w5hHlCcgl3w.jpg",
+                  "width": 206
+                },
+                {
+                  "height": 42,
+                  "type": "s",
+                  "url": "https://sun9-10.userapi.com/c857532/v857532812/1a12ff/Xwh9J9tGo5g.jpg",
+                  "width": 75
+                },
+                {
+                  "height": 114,
+                  "type": "x",
+                  "url": "https://sun9-43.userapi.com/c857532/v857532812/1a1301/PzGgxlD18Ig.jpg",
+                  "width": 206
+                }
+              ],
+              "text": ""
+            },
+            "title": "GridGain - In-Memory Computing Platform - GridGain Systems",
+            "url": "https://www.gridgain.com/"
+          },
+          "type": "link"
+        }
+      ],
+      "can_delete": 1,
+      "can_pin": 1,
+      "comments": {
+        "can_close": 1,
+        "can_post": 1,
+        "count": 0,
+        "groups_can_post": true
+      },
+      "date": 1583915623,
+      "from_id": -143954349,
+      "id": 2535,
+      "is_favorite": false,
+      "likes": {
+        "can_like": 0,
+        "can_publish": 1,
+        "count": 3,
+        "user_likes": 1
+      },
+      "marked_as_ads": 0,
+      "owner_id": -143954349,
+      "post_source": {
+        "type": "vk"
+      },
+      "post_type": "post",
+      "reposts": {
+        "count": 0,
+        "user_reposted": 0
+      },
+      "signer_id": 55109077,
+      "text": "✅Вакансия: Senior Java Developer \n✅Город: Санкт-Петербург \n✅Занятость: полная (5/2, офис) \n✅Название компании: Grid Gain \n✅ЗП: от 200К net \n✅Сайт: https://www.gridgain.com/ \n \n👍О компании: \nПродуктовая компания GridGain Systems, базирующаяся в Silicon Valley и специализирующаяся на разработке ПО для распределенной обработки данных (highload distributed systems) и grid/cloud computing, открывает вакансию Senior Java Developer в рамках разработки одноименного продукта GridGain, а также развития open source продукта Apache Ignite, которым пользуются десятки тысяч разработчиков по всему миру. \n \n👌Что вам готовы предложить: \n- Оформление в полном соответствии с ТК РФ с первого дня работы. \n- Полис ДМС за счет компании с услугами стоматологии. \n- Stock options уже после успешного прохождения испытательного срока. \n- Занятия английским языком и/или спортом за счет компании;\n- Ежегодный пересмотр заработной платы. \n- Работа в команде высококлассных профессионалов над одним из самых технологически передовых проектов в мире. \n- Возможность стать участником open source community продукта, входящего в ТОП-5 Apache SF - Apache Ignite. \n- Гарантировано получение уникального опыта. \n- Работа с полным спектром новейших Java и grid / cloud технологий в сфере многопоточного программирования;\n- Компания приветствует и требует инициативу. \n- Компания приветствует и всячески поддерживает сотрудников в выступлениях на конференциях, вебинарах, митапах;\n- Офис находится в центре Санкт-Петербурга, рядом станции метро Звенигородская, Владимирская/Достоевская, Лиговский проспект. \n- Компания не рассматривает сотрудников с удаленной формой занятости, но готова оказать помощь в релокации для трудоустройства и работы в Питере. \n \n💪Ожидания: \n- Опыт работы в сфере Java-технологий от 3 лет, высокая инженерная дисциплина и ответственное отношение к качеству кода. \n- Отличные знания Java SE - collections, IO, JVM internals, etc. \n- Экспертные знания multithreaded / concurrent programming - JMM, deadlock handling, synchronization primitives, concurrent data structures, etc. \n- Английский язык на уровне чтения и написания технической документации. \n \n🤓Плюсом будет: \n- опыт работы с SQL СУБД и глубокое понимание принципов работы, навыки оптимизации запросов и индексов SQL СУБД. \n- наличие опыта разработки отказоустойчивых распределенных систем. \n \n✍Контакты: @Kate_Guseva \n\n#вакансии@samara_it_community",
+      "views": {
+        "count": 698
+      }
+    },
+    {
+      "can_delete": 1,
+      "can_pin": 1,
+      "comments": {
+        "can_close": 1,
+        "can_post": 1,
+        "count": 0,
+        "groups_can_post": true
+      },
+      "date": 1583760601,
+      "from_id": -143954349,
+      "id": 2533,
+      "is_favorite": false,
+      "likes": {
+        "can_like": 0,
+        "can_publish": 1,
+        "count": 5,
+        "user_likes": 1
+      },
+      "marked_as_ads": 0,
+      "owner_id": -143954349,
+      "post_source": {
+        "type": "vk"
+      },
+      "post_type": "post",
+      "postponed_id": 2532,
+      "reposts": {
+        "count": 0,
+        "user_reposted": 0
+      },
+      "signer_id": 2289006,
+      "text": "Центр информационной безопасности компании «Инфосистемы Джет» – это профессиональное сообщество специалистов по ИБ. Компания защищает бизнес заказчиков от киберугроз уже 22 года. \n \nПриглашаются специалисты по информационной безопасности центра мониторинга и реагирования на инциденты информационной безопасности Jet CSIRT. \n \nВАШИ ЗАДАЧИ: \n \n- Мониторинг инцидентов ИБ в системах корреляции инцидентов и управления инцидентами (SIEM и IRP) \n - Отслеживание заявок и работа в системе работы с заявками \n - Прием заявок на инциденты ИБ от клиентов (в том числе по телефону) \n - Уведомление клиентов по инцидентам ИБ \n - Формирование карточки инцидентов ИБ \n - Фильтрация ложных срабатываний \n - Эскалация сложных инцидентов 2-й линии обработки инцидентов \n - Предоставление выгрузок данных из SIEM системы по запросу 2-й линии обработки инцидентов \n \nОЖИДАНИЯ: \n Желание развиваться в сфере ИББазовое понимание и опыт администрирования UNIX-систем и Microsoft Windows инфраструктуры; \nАнглийский язык – чтение технической документации, ведение деловой переписки приветствуется \nИнициативность, стрессоустойчивость, умение работать на результат, умение работать в командеУверенный пользователь MS Office \n \nКомпания предлагает: \n Интересные проекты, возможность профессионального и карьерного роста, работу в дружном коллективе профессионалов; \nРаботу в команде экспертов по информационной безопасности \nПрофессиональное обучение и сертификации за счёт компании \nВозможность карьерного роста внутри команды \nОформление по ТК РФ\nЗаработную плату по результатам собеседования + премии по итогам работы \nВаши желания будут учитываться. \nСоциальный пакет с возможностью выбора между ДМС, изучением иностранных языков и абонементом в фитнес-центр \nГрафик работы посменный: 2/2 \nВозможность совмещения с учебой. \nОфис: г. Самара, Партизанская 88. \n \nРезюме лучше заранее отправлять на почту na.gurkin@jet.su \nТелефон 8-987-917-36-05\n\n#вакансии@samara_it_community",
+      "views": {
+        "count": 872
+      }
+    },
+    {
+      "attachments": [
+        {
+          "poll": {
+            "anonymous": false,
+            "answer_ids": [
+              1223624613
+            ],
+            "answers": [
+              {
+                "id": 1223624613,
+                "rate": 20.14,
+                "text": "1",
+                "votes": 29
+              },
+              {
+                "id": 1223624614,
+                "rate": 70.83,
+                "text": "2",
+                "votes": 102
+              },
+              {
+                "id": 1223624615,
+                "rate": 7.64,
+                "text": "3-5",
+                "votes": 11
+              },
+              {
+                "id": 1223624616,
+                "rate": 1.39,
+                "text": "Свой вариант в комментариях",
+                "votes": 2
+              }
+            ],
+            "author_id": -143954349,
+            "can_edit": false,
+            "can_report": false,
+            "can_share": true,
+            "can_vote": false,
+            "closed": false,
+            "created": 1583620547,
+            "end_date": 1583830800,
+            "friends": [
+              {
+                "id": 8542929
+              },
+              {
+                "id": 19217817
+              },
+              {
+                "id": 581511486
+              }
+            ],
+            "id": 365707761,
+            "is_board": false,
+            "multiple": false,
+            "owner_id": -143954349,
+            "question": "Сколько мониторов вы используете для работы?",
+            "votes": 144
+          },
+          "type": "poll"
+        }
+      ],
+      "can_delete": 1,
+      "can_pin": 1,
+      "comments": {
+        "can_close": 1,
+        "can_post": 1,
+        "count": 0,
+        "groups_can_post": true
+      },
+      "date": 1583656201,
+      "from_id": -143954349,
+      "id": 2527,
+      "is_favorite": false,
+      "likes": {
+        "can_like": 0,
+        "can_publish": 1,
+        "count": 3,
+        "user_likes": 1
+      },
+      "marked_as_ads": 0,
+      "owner_id": -143954349,
+      "post_source": {
+        "type": "vk"
+      },
+      "post_type": "post",
+      "postponed_id": 2526,
+      "reposts": {
+        "count": 0,
+        "user_reposted": 0
+      },
+      "text": "Празднично-воскресный опрос 🎉",
+      "views": {
+        "count": 881
+      }
+    },
+    {
+      "attachments": [
+        {
+          "photo": {
+            "access_key": "cd1835ee67ff6008c0",
+            "album_id": -7,
+            "date": 1583238078,
+            "id": 457240614,
+            "owner_id": -143954349,
+            "sizes": [
+              {
+                "height": 59,
+                "type": "m",
+                "url": "https://sun9-45.userapi.com/c858332/v858332233/19abd1/At0SbI6qm-g.jpg",
+                "width": 130
+              },
+              {
+                "height": 87,
+                "type": "o",
+                "url": "https://sun9-68.userapi.com/c858332/v858332233/19abd4/G9-xvQ3p5G4.jpg",
+                "width": 130
+              },
+              {
+                "height": 133,
+                "type": "p",
+                "url": "https://sun9-11.userapi.com/c858332/v858332233/19abd5/2m0XaxsPpv0.jpg",
+                "width": 200
+              },
+              {
+                "height": 213,
+                "type": "q",
+                "url": "https://sun9-41.userapi.com/c858332/v858332233/19abd6/6byHwZcOq3U.jpg",
+                "width": 320
+              },
+              {
+                "height": 340,
+                "type": "r",
+                "url": "https://sun9-36.userapi.com/c858332/v858332233/19abd7/kgxDRM0uUEM.jpg",
+                "width": 510
+              },
+              {
+                "height": 34,
+                "type": "s",
+                "url": "https://sun9-39.userapi.com/c858332/v858332233/19abd0/VouiEOaxL1o.jpg",
+                "width": 75
+              },
+              {
+                "height": 276,
+                "type": "x",
+                "url": "https://sun9-47.userapi.com/c858332/v858332233/19abd2/dFF632rKiyY.jpg",
+                "width": 604
+              },
+              {
+                "height": 365,
+                "type": "y",
+                "url": "https://sun9-30.userapi.com/c858332/v858332233/19abd3/1ZkUqXYCkp0.jpg",
+                "width": 800
+              }
+            ],
+            "text": "",
+            "user_id": 100
+          },
+          "type": "photo"
+        },
+        {
+          "link": {
+            "description": "\"5 марта 2020 года\". Java Webinar 2020. Прими участие в мероприятии и узнай подробности на Events Portal.",
+            "is_favorite": false,
+            "target": "internal",
+            "title": "\"Java Webinar 2020\"",
+            "url": "https://events.epam.com/events/java-webinar-2020"
+          },
+          "type": "link"
+        }
+      ],
+      "can_delete": 1,
+      "can_pin": 1,
+      "comments": {
+        "can_close": 1,
+        "can_post": 1,
+        "count": 0,
+        "groups_can_post": true
+      },
+      "date": 1583328601,
+      "from_id": -143954349,
+      "id": 2525,
+      "is_favorite": false,
+      "likes": {
+        "can_like": 0,
+        "can_publish": 1,
+        "count": 8,
+        "user_likes": 1
+      },
+      "marked_as_ads": 0,
+      "owner_id": -143954349,
+      "post_source": {
+        "type": "vk"
+      },
+      "post_type": "post",
+      "postponed_id": 2523,
+      "reposts": {
+        "count": 0,
+        "user_reposted": 0
+      },
+      "signer_id": 215887500,
+      "text": "Подключайтесь к вебинару по Java!\n5 марта в 11:00. \n \nТемы: \n• Stay Connected With Kafka; \n• QUARKUS: Supersonic Subatomic Java. \n \nПодробности и регистрация по ссылке ниже. \n \nВебинар пройдет на платформе GoToWebinar. За день до мероприятия вам пришлют ссылку для подключения на почту, которую вы укажете при регистрации.\n\n#мероприятия@samara_it_community",
+      "views": {
+        "count": 999
+      }
+    },
+    {
+      "attachments": [
+        {
+          "link": {
+            "caption": "amc.ru",
+            "description": "28 – 29 марта 2020 г. пройдет Мейкатон Американского Центра по разработке решений, которые улучшат жизнь горожан и сделают городскую среду более удобной.",
+            "is_favorite": false,
+            "photo": {
+              "album_id": -26,
+              "date": 1583221777,
+              "id": 457294618,
+              "owner_id": 2000000452,
+              "sizes": [
+                {
+                  "height": 480,
+                  "type": "k",
+                  "url": "https://sun9-23.userapi.com/c206624/v206624605/8e18e/pRDfhD7wPhY.jpg",
+                  "width": 1024
+                },
+                {
+                  "height": 240,
+                  "type": "l",
+                  "url": "https://sun9-21.userapi.com/c206624/v206624605/8e18d/5cUB0p-WMnw.jpg",
+                  "width": 537
+                },
+                {
+                  "height": 87,
+                  "type": "m",
+                  "url": "https://sun9-12.userapi.com/c206624/v206624605/8e18a/TSUpEBuwdYs.jpg",
+                  "width": 130
+                },
+                {
+                  "height": 173,
+                  "type": "p",
+                  "url": "https://sun9-54.userapi.com/c206624/v206624605/8e18c/Br7XT13C9yk.jpg",
+                  "width": 260
+                },
+                {
+                  "height": 50,
+                  "type": "s",
+                  "url": "https://sun9-19.userapi.com/c206624/v206624605/8e189/Yp4i5tw8o-I.jpg",
+                  "width": 75
+                },
+                {
+                  "height": 100,
+                  "type": "x",
+                  "url": "https://sun9-55.userapi.com/c206624/v206624605/8e18b/QE32GS9wsWo.jpg",
+                  "width": 150
+                }
+              ],
+              "text": ""
+            },
+            "title": "AMC Makeathon 2020 - American Center in Moscow",
+            "url": "https://amc.ru/amc-makeathon-2020/"
+          },
+          "type": "link"
+        }
+      ],
+      "can_delete": 1,
+      "can_pin": 1,
+      "comments": {
+        "can_close": 1,
+        "can_post": 1,
+        "count": 0,
+        "groups_can_post": true
+      },
+      "date": 1583303400,
+      "from_id": -143954349,
+      "id": 2524,
+      "is_favorite": false,
+      "likes": {
+        "can_like": 0,
+        "can_publish": 1,
+        "count": 2,
+        "user_likes": 1
+      },
+      "marked_as_ads": 0,
+      "owner_id": -143954349,
+      "post_source": {
+        "type": "vk"
+      },
+      "post_type": "post",
+      "postponed_id": 2519,
+      "reposts": {
+        "count": 0,
+        "user_reposted": 0
+      },
+      "signer_id": 322307249,
+      "text": "Американский Центр открывает приём заявок на новый хакатон: «AMC Makeathon 2020: Цифровые технологии в урбанистике» по разработке решений, которые улучшат жизнь горожан и сделают городскую среду более удобной. \n\nКомандам из регионов, которые прошли отбор, будет оплачено двухместное проживание и проезд до Москвы. \n\nПриглашаем вас принять участие в урбанистическом хакатоне:\n🗓Даты: 28-29 марта 2020\n📍Место: Американский Центр в Москве\n📌Подать заявку тут: https://amc.ru/amc-makeathon-2020/ \n⏰Дедлайн: 12 марта 2020\n\n#мероприятия@samara_it_community",
+      "views": {
+        "count": 818
+      }
+    },
+    {
+      "attachments": [
+        {
+          "photo": {
+            "access_key": "2bbb0b00554fee3bda",
+            "album_id": -7,
+            "date": 1583173196,
+            "id": 457240613,
+            "owner_id": -143954349,
+            "sizes": [
+              {
+                "height": 73,
+                "type": "m",
+                "url": "https://sun6-13.userapi.com/Y4owIsy2bZQJPDTX26E_QF97xvT7DNlg45J8ag/yjHHrVHICaQ.jpg",
+                "width": 130
+              },
+              {
+                "height": 87,
+                "type": "o",
+                "url": "https://sun6-16.userapi.com/DDplD2u5cnoVyOt6x0kZnoLQRbS3R_qCY8B84Q/qQxTkV05FjE.jpg",
+                "width": 130
+              },
+              {
+                "height": 133,
+                "type": "p",
+                "url": "https://sun6-14.userapi.com/97GlfCyqkmgcmjITqolZ8bcbUr-N_Fsnr2m1-g/OtJZu7xA2cg.jpg",
+                "width": 200
+              },
+              {
+                "height": 213,
+                "type": "q",
+                "url": "https://sun6-14.userapi.com/qRD3Grd0snv_GC9s6a55biQtR8PxQybh2VC5FQ/JPOqCmf6lO0.jpg",
+                "width": 320
+              },
+              {
+                "height": 340,
+                "type": "r",
+                "url": "https://sun6-16.userapi.com/BFpdifXjrh3wWM9MwFOtwBZYZBGcmh3gXyXOLA/QKtVgziJNe0.jpg",
+                "width": 510
+              },
+              {
+                "height": 42,
+                "type": "s",
+                "url": "https://sun6-14.userapi.com/_F2eaotIkwZG8yTUhi7l44Qk7PVOKgXZy0VKCw/XEckgzO8N-Q.jpg",
+                "width": 75
+              },
+              {
+                "height": 1080,
+                "type": "w",
+                "url": "https://sun6-19.userapi.com/l49zi3HGpqOI0QnT9RjMvqie72EdVcBqfgXAqw/w14CTsCGWlo.jpg",
+                "width": 1920
+              },
+              {
+                "height": 340,
+                "type": "x",
+                "url": "https://sun6-14.userapi.com/L9oydA8wLcb25avztDSJ1HQraofp8wYbk-hVgQ/Qk3igoBC1Dk.jpg",
+                "width": 604
+              },
+              {
+                "height": 454,
+                "type": "y",
+                "url": "https://sun6-19.userapi.com/xL06YO3DNqO4D9UA4zrsg3Hm5lkjYkS3QXgKhg/kfRl5TQ8Vuo.jpg",
+                "width": 807
+              },
+              {
+                "height": 720,
+                "type": "z",
+                "url": "https://sun6-19.userapi.com/3MllHHAizenf6ufZYZJ1NcjmAzcg-KrcNfo9Rg/nXyF1wxIhxI.jpg",
+                "width": 1280
+              }
+            ],
+            "text": "",
+            "user_id": 100
+          },
+          "type": "photo"
+        },
+        {
+          "link": {
+            "description": "Первый митап Самарского комьюнити мобильных разработчиков 18 апреля 2020 в Yellow Rockets",
+            "is_favorite": false,
+            "target": "internal",
+            "title": "Mobile Meetup Самара — 18 апреля 2020",
+            "url": "https://sitc-mobile.ru/"
+          },
+          "type": "link"
+        },
+        {
+          "podcast": {
+            "artist": "Samara IT Community",
+            "date": 1580983815,
+            "duration": 7239,
+            "id": 456239043,
+            "lyrics_id": 445505225,
+            "no_search": 1,
+            "owner_id": -143954349,
+            "podcast_info": {
+              "cover": {
+                "sizes": [
+                  {
+                    "height": 640,
+                    "type": "a",
+                    "url": "https://sun6-16.userapi.com/yiPnqGfv9Y9mX0BYYgMK75hlCbBL-fL2I4zSKQ/9UGQKc4w9oQ.jpg",
+                    "width": 640
+                  },
+                  {
+                    "height": 320,
+                    "type": "c",
+                    "url": "https://sun6-13.userapi.com/7ir95hoJ-4X62ga2Lw3qPmxB3S5m5nit5ZTdlg/70Y4G_1t_zA.jpg",
+                    "width": 320
+                  },
+                  {
+                    "height": 160,
+                    "type": "e",
+                    "url": "https://sun6-19.userapi.com/OeBIirk-2tAKUACDSm7sSWOYIRRiCPos5mnvdw/9-yjPBfGccE.jpg",
+                    "width": 160
+                  },
+                  {
+                    "height": 240,
+                    "type": "b",
+                    "url": "https://sun6-16.userapi.com/GVbJhz76avDvy2p8MsVW3bfHdg8PyNzJiJxRrg/mQpYhRhaMxA.jpg",
+                    "width": 240
+                  },
+                  {
+                    "height": 120,
+                    "type": "d",
+                    "url": "https://sun6-19.userapi.com/v7L8xJM2Zfuqg6x7a5x8yTAHgSfV0IpqVMdE-w/qULb8eRWgZE.jpg",
+                    "width": 120
+                  },
+                  {
+                    "height": 100,
+                    "type": "f",
+                    "url": "https://sun6-16.userapi.com/8ZMdD3l4TrwGKZ742hNv5K9erBw3nkcMAs67HA/iP8D73dASGk.jpg",
+                    "width": 100
+                  },
+                  {
+                    "height": 50,
+                    "type": "h",
+                    "url": "https://sun6-16.userapi.com/CPczozN5jYPvDCoavqn-Q5y4cGpaDx6zgwdX_A/MhFmBfWFEo4.jpg",
+                    "width": 50
+                  },
+                  {
+                    "height": 1400,
+                    "type": "x",
+                    "url": "https://sun6-16.userapi.com/kEZv-GCA6AgWlGbQYj9Sfk9SMuJuMrHpR554GA/FhkJbz7sHAo.jpg",
+                    "width": 1400
+                  }
+                ]
+              },
+              "description": "Замечательный выпуск про мобильную разработку и не только.\n\nСсылки и подробности о гостях выпуска тут: vk.com/@samara_it_community-sitcmobile\n\nВедущие:\nДмитрий Николаев\nДмитрий Червяков\nНикита Пузанков\n\nГости:\nАлександр Блинов\nАлександр Егоров\nМихаил Куренков\nПавел Щадрин\n\nТаймкоды:\n00:00 - Вступление\n01:10 - О Павле\n02:35 - Об Александре Б\n03:10 - О Михаиле\n04:15 - Об Александре Е\n04:50 - Путь в мобайл\n29:30 - Прибывалка\n34:50 - Релокация\n49:50 - Мобайл в Самаре\n51:00 - Конференции\n1:00:00 - Димины вопросы\n1:17:50 - Чистый код",
+              "plays": 49
+            },
+            "title": "SITCast №17 - Mobile",
+            "track_code": "41404161khrtfCihQlE-Dwhi2s5v5kw",
+            "url": "https://psv4.vkuseraudio.net/c815130/u8542929/audios/bc370ac228de.mp3?extra=2Xqj1hPrk8sdC-2t-rMGLZTzzdhS4Ap_CjkKo60CmN-KfSWvprQGxFi8f74RLO18-nAUdSPoHAIzdDYSvqFHBVTR7rhBQocWXWf-z1jXaI8tEKxM3vWXsXC6H1DKxcqyvn74o6wM0mQBqWDSmd6piFA"
+          },
+          "type": "podcast"
+        }
+      ],
+      "can_delete": 1,
+      "can_pin": 1,
+      "comments": {
+        "can_close": 1,
+        "can_post": 1,
+        "count": 0,
+        "groups_can_post": true
+      },
+      "date": 1583242204,
+      "from_id": -143954349,
+      "id": 2522,
+      "is_favorite": false,
+      "likes": {
+        "can_like": 0,
+        "can_publish": 1,
+        "count": 7,
+        "user_likes": 1
+      },
+      "marked_as_ads": 0,
+      "owner_id": -143954349,
+      "post_source": {
+        "type": "vk"
+      },
+      "post_type": "post",
+      "postponed_id": 2518,
+      "reposts": {
+        "count": 0,
+        "user_reposted": 0
+      },
+      "text": "\"У нас было 32 человека в чате в телеграме, 3 спикера на первый митап и целое множество вопросов, а также swift, kotlin, objective-с и java. Не то что бы это был необходимый запас для митапа. Но если начал организовывать движуху в сообществе мобильщиков, становится трудно остановиться. Единственное что вызывало у нас опасение - это react native. Мы знали, что рано или поздно мы перейдем и на эту дрянь.\" (c)\n\nhttps://sitc-mobile.ru/ — [club192603614|первый митап самарского SITC.Mobile] - 18 апреля в [club148190997|Коворкинг YellowRockets]\n\n Количество мест ограничено - регистрация на сайте.\n\n#мероприятия@samara_it_community",
+      "views": {
+        "count": 1395
+      }
+    },
+    {
+      "attachments": [
+        {
+          "photo": {
+            "access_key": "f33e3673370cefab96",
+            "album_id": -7,
+            "date": 1583149396,
+            "id": 457240612,
+            "owner_id": -143954349,
+            "sizes": [
+              {
+                "height": 84,
+                "type": "m",
+                "url": "https://sun9-21.userapi.com/c854532/v854532618/200f5e/i_SVruiPG7I.jpg",
+                "width": 130
+              },
+              {
+                "height": 87,
+                "type": "o",
+                "url": "https://sun9-66.userapi.com/c854532/v854532618/200f63/afmo2uM24bc.jpg",
+                "width": 130
+              },
+              {
+                "height": 133,
+                "type": "p",
+                "url": "https://sun9-54.userapi.com/c854532/v854532618/200f64/nwjm9zFh1mo.jpg",
+                "width": 200
+              },
+              {
+                "height": 213,
+                "type": "q",
+                "url": "https://sun9-50.userapi.com/c854532/v854532618/200f65/5o6ljX-nPho.jpg",
+                "width": 320
+              },
+              {
+                "height": 340,
+                "type": "r",
+                "url": "https://sun9-10.userapi.com/c854532/v854532618/200f66/yRbMbzOjvco.jpg",
+                "width": 510
+              },
+              {
+                "height": 48,
+                "type": "s",
+                "url": "https://sun9-29.userapi.com/c854532/v854532618/200f5d/rRL8NQo6bOY.jpg",
+                "width": 75
+              },
+              {
+                "height": 1647,
+                "type": "w",
+                "url": "https://sun9-32.userapi.com/c854532/v854532618/200f62/pNVBMwmqBac.jpg",
+                "width": 2560
+              },
+              {
+                "height": 388,
+                "type": "x",
+                "url": "https://sun9-63.userapi.com/c854532/v854532618/200f5f/cFH_pDPHd_Q.jpg",
+                "width": 604
+              },
+              {
+                "height": 519,
+                "type": "y",
+                "url": "https://sun9-42.userapi.com/c854532/v854532618/200f60/vEYYSTcYryY.jpg",
+                "width": 807
+              },
+              {
+                "height": 823,
+                "type": "z",
+                "url": "https://sun9-68.userapi.com/c854532/v854532618/200f61/f7Tni8FKoC8.jpg",
+                "width": 1280
+              }
+            ],
+            "text": "",
+            "user_id": 100
+          },
+          "type": "photo"
+        },
+        {
+          "link": {
+            "description": "На бизнес-завтраке обсудим обзор актуальных тенденций, которые оказывают влияние на поисковое продвижение в 2020 году. Почему играть в долгую лучше, чем получить результат здесь и сейчас?",
+            "is_favorite": false,
+            "target": "internal",
+            "title": "Эффективное SEO: как продвигать сайты в 2020 году / События на TimePad.ru",
+            "url": "https://gedocorp-digital.timepad.ru/event/1272339/"
+          },
+          "type": "link"
+        }
+      ],
+      "can_delete": 1,
+      "can_pin": 1,
+      "comments": {
+        "can_close": 1,
+        "can_post": 1,
+        "count": 0,
+        "groups_can_post": true
+      },
+      "date": 1583217000,
+      "from_id": -143954349,
+      "id": 2516,
+      "is_favorite": false,
+      "likes": {
+        "can_like": 0,
+        "can_publish": 1,
+        "count": 3,
+        "user_likes": 1
+      },
+      "marked_as_ads": 0,
+      "owner_id": -143954349,
+      "post_source": {
+        "type": "vk"
+      },
+      "post_type": "post",
+      "postponed_id": 2514,
+      "reposts": {
+        "count": 0,
+        "user_reposted": 0
+      },
+      "signer_id": 696542,
+      "text": "Бизнес-завтрак \"Эффективное SEO: как продвигать сайты в 2020 году\" \n10 марта в 10:00 \nМодное пространство Ладья (ул. Лесная, 33) \n \nНа бизнес-завтраке обсудят важные направления поискового маркетинга, разберут почему SEO лучше контекстной рекламы и SMM, познакомят с новыми стратегиями, которые хорошо работают уже сейчас. А также вас ждет спич от юриста, который расскажет о правовой составляющей сайта. \n \n📍Мероприятие платное. \nРегистрация и оплата по ссылке https://gedocorp-digital.timepad.ru/event/1272339/. Стоимость 200₽ и 100₽ для подписчиков [club143954349|Samara IT Community]. При оплате введите промокод samara_it.\n\nСпикеры: \nАлексей Добрусин - стратегический маркетолог, основатель агентства Гедокорп. Расскажет о 3 важных мифа маркетинговой стратегии.\n\nВладимир Егоров - Team Lead SEO-специалист интернет-агентства Гедокорп. \nРасскажет почему лучше играть в долгую, чем получить результат \"здесь и сейчас\"\n\nВладислав Симон - руководитель практики интеллектуальной собственности самарского офиса международной юридической фирмы GRATA International. \nРасскажет о правовых аспектах вашего сайта.\n\n#мероприятия@samara_it_community",
+      "views": {
+        "count": 724
+      }
+    },
+    {
+      "attachments": [
+        {
+          "poll": {
+            "anonymous": false,
+            "answer_ids": [
+              1221281097
+            ],
+            "answers": [
+              {
+                "id": 1221281096,
+                "rate": 51.9,
+                "text": "GUI/TUI",
+                "votes": 41
+              },
+              {
+                "id": 1221281097,
+                "rate": 53.16,
+                "text": "CLI",
+                "votes": 42
+              },
+              {
+                "id": 1221281098,
+                "rate": 2.53,
+                "text": "Свой вариант в комментариях",
+                "votes": 2
+              }
+            ],
+            "author_id": -143954349,
+            "can_edit": false,
+            "can_report": false,
+            "can_share": true,
+            "can_vote": false,
+            "closed": false,
+            "created": 1583060157,
+            "end_date": 1583232900,
+            "friends": [
+              {
+                "id": 8542929
+              },
+              {
+                "id": 581511486
+              },
+              {
+                "id": 3567854
+              }
+            ],
+            "id": 364949099,
+            "is_board": false,
+            "multiple": true,
+            "owner_id": -143954349,
+            "photo": {
+              "color": "253ED7",
+              "id": 457240611,
+              "images": [
+                {
+                  "height": 600,
+                  "url": "https://sun9-5.userapi.com/c853420/v853420373/1fee5c/-HdWyqTZdE0.jpg",
+                  "width": 800
+                },
+                {
+                  "height": 200,
+                  "url": "https://sun9-55.userapi.com/c853420/v853420373/1fee60/PmqzPTRRPqg.jpg",
+                  "width": 510
+                },
+                {
+                  "height": 400,
+                  "url": "https://sun9-7.userapi.com/c853420/v853420373/1fee61/W5ISlLew6z0.jpg",
+                  "width": 800
+                },
+                {
+                  "height": 600,
+                  "url": "https://sun9-18.userapi.com/c853420/v853420373/1fee62/feNwhbTTbzs.jpg",
+                  "width": 800
+                },
+                {
+                  "height": 45,
+                  "url": "https://sun9-43.userapi.com/c853420/v853420373/1fee5d/mjXTkuE3Zpg.jpg",
+                  "width": 100
+                },
+                {
+                  "height": 90,
+                  "url": "https://sun9-18.userapi.com/c853420/v853420373/1fee5e/9eyAmlFN2Ys.jpg",
+                  "width": 200
+                },
+                {
+                  "height": 135,
+                  "url": "https://sun9-51.userapi.com/c853420/v853420373/1fee5f/UWLbscpubiE.jpg",
+                  "width": 300
+                }
+              ]
+            },
+            "question": "Консоль или Графический интерфейс?",
+            "votes": 79
+          },
+          "type": "poll"
+        }
+      ],
+      "can_delete": 1,
+      "can_pin": 1,
+      "comments": {
+        "can_close": 1,
+        "can_post": 1,
+        "count": 11,
+        "groups_can_post": true
+      },
+      "date": 1583060157,
+      "from_id": -143954349,
+      "id": 2504,
+      "is_favorite": false,
+      "likes": {
+        "can_like": 0,
+        "can_publish": 1,
+        "count": 4,
+        "user_likes": 1
+      },
+      "marked_as_ads": 0,
+      "owner_id": -143954349,
+      "post_source": {
+        "type": "vk"
+      },
+      "post_type": "post",
+      "reposts": {
+        "count": 0,
+        "user_reposted": 0
+      },
+      "text": "Воскресный опрос в первый день весны 🌼",
+      "views": {
+        "count": 1174
+      }
+    }
+  ]
+}
+
