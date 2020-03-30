@@ -1,7 +1,6 @@
 use super::*;
 use rvk::{methods, objects::post, APIClient, Params};
 use serde::Deserialize;
-use serde_json;
 use std::fmt::Debug;
 
 pub struct Vkontakte {

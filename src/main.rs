@@ -1,6 +1,5 @@
 #![feature(binary_heap_into_iter_sorted)]
 #![feature(map_first_last)]
-use dotenv;
 use std::{cmp::Ordering, collections::BinaryHeap, env};
 
 mod database;
@@ -26,7 +25,7 @@ async fn main() -> Result<(), String> {
                 .expect("LAST_POST_ID should be integer"),
         )?,
     );
-    &app.try_posts().await?;
+    app.try_posts().await?;
     Ok(())
 }
 
