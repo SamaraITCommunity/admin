@@ -1,5 +1,5 @@
 # Бот администратор самарского айти сообщества
-![Node CI](https://github.com/SamaraITCommunity/admin/workflows/Node%20CI/badge.svg)
+![Rust CI](https://github.com/SamaraITCommunity/admin/workflows/Rust%20CI/badge.svg)
 
 ## Функционал
 
@@ -26,10 +26,8 @@
 
 ## Ввод в эксплуатацию
 
-1. Создать и заполнить `.env` файл согласно `config.ts`
-1. Установить [YARN](https://yarnpkg.com/getting-started/install/) (можно NPM).
-1. Установить зависимости - `yarn/npm install`.
-1. Запустить - `yarn serve` or `npm run serve`
+1. Создать и заполнить `.env` файл.
+1. `./admin`
 
 ### Переменные окружения
 
