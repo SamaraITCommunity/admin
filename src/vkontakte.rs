@@ -44,7 +44,7 @@ pub struct Wall {
 
 impl From<post::Post> for Post {
     fn from(vk_post: post::Post) -> Post {
-        let mut post = Post::new(vk_post.id, vk_post.text.clone());
+        let mut post = Post::new(vk_post.id, vk_post.text.replace("@samara_it_community", ""));
         if let Some(attachments) = vk_post.attachments {
             for attachment in attachments {
                 if let Some(link) = attachment.link {
@@ -75,7 +75,10 @@ impl From<post::Post> for Post {
                     }
                 }
                 if let Some(podcast) = attachment.podcast {
-                    post.podcast_url(podcast.url, podcast.access_key.unwrap_or("".to_string()));
+                    post.podcast_url(
+                        podcast.url,
+                        podcast.access_key.unwrap_or_else(|| "".to_string()),
+                    );
                 }
             }
         }
@@ -100,6 +103,22 @@ mod tests {
             .map(|vk_post| vk_post.clone().into())
             .collect();
         dbg!(result);
+        Ok(())
+    }
+
+    #[test]
+    fn check_transformation_of_text() -> std::io::Result<()> {
+        let mut content = String::new();
+        File::open("tests/wall_payload.json")?.read_to_string(&mut content)?;
+        let wall: Wall = serde_json::from_str(&content).expect("Failed to parse Wall");
+        let result: Vec<Post> = wall
+            .items
+            .iter()
+            .map(|vk_post| vk_post.clone().into())
+            .collect();
+        for post in result {
+            assert!(post.text.matches("@samara_it_community").count() == 0);
+        }
         Ok(())
     }
 }
