@@ -8,9 +8,10 @@ edition = "2018"
 
 [dependencies]
 carapax = "0.5" 
+discord = { git = "https://github.com/vityafx/discord-rs", branch = "master", default-features = false }
 dotenv = "0.15"
 futures = "0.3"
-rvk = "0.15"
+rvk = { git = "https://github.com/humb1t/rvk", branch = "master" }
 serde = "1.0"
 serde_json = "1.0"
 tgbot = "0.7"

@@ -3,6 +3,7 @@
 use std::{cmp::Ordering, collections::BinaryHeap, env};
 
 mod database;
+mod discord;
 mod telegram;
 mod vkontakte;
 
@@ -10,41 +11,51 @@ mod vkontakte;
 async fn main() -> Result<(), String> {
     dotenv::dotenv().ok();
     let mut app = Application::new(
-        vkontakte::Vkontakte::new(
-            env::var("VK_API_KEY").expect("Set VK_API_KEY environment variable"),
-            env::var("VK_GROUP_ID").expect("Set VK_GROUP_ID environment variable"),
-        ),
-        telegram::Telegram::new(
-            env::var("TELEGRAM_BOT_TOKEN").expect("Set TELEGRAM_BOT_TOKEN environment variable"),
-            env::var("TELEGRAM_CHANNEL_ID").expect("Set TELEGRAM_CHANNEL_ID environment variable"),
-        ),
         database::Database::new(
             env::var("LAST_POST_ID")
                 .expect("Set LAST_POST_ID environment variable")
                 .parse()
                 .expect("LAST_POST_ID should be integer"),
         )?,
+        discord::Discord::new(
+            env::var("DISCORD_API_KEY").expect("Set DISCORD_API_KEY environment variable"),
+            env::var("DISCORD_CHANNEL_ID")
+                .expect("Set DISCORD_CHANNEL_ID environment variable")
+                .parse()
+                .expect("DISCORD_CHANNEL_ID should be integer"),
+        )?,
+        telegram::Telegram::new(
+            env::var("TELEGRAM_BOT_TOKEN").expect("Set TELEGRAM_BOT_TOKEN environment variable"),
+            env::var("TELEGRAM_CHANNEL_ID").expect("Set TELEGRAM_CHANNEL_ID environment variable"),
+        ),
+        vkontakte::Vkontakte::new(
+            env::var("VK_API_KEY").expect("Set VK_API_KEY environment variable"),
+            env::var("VK_GROUP_ID").expect("Set VK_GROUP_ID environment variable"),
+        ),
     );
     app.try_posts().await?;
     Ok(())
 }
 
 struct Application {
-    vkontakte: vkontakte::Vkontakte,
-    telegram: telegram::Telegram,
     database: database::Database,
+    discord: discord::Discord,
+    telegram: telegram::Telegram,
+    vkontakte: vkontakte::Vkontakte,
 }
 
 impl Application {
     fn new(
-        vkontakte: vkontakte::Vkontakte,
-        telegram: telegram::Telegram,
         database: database::Database,
+        discord: discord::Discord,
+        telegram: telegram::Telegram,
+        vkontakte: vkontakte::Vkontakte,
     ) -> Self {
         Application {
-            vkontakte,
-            telegram,
             database,
+            discord,
+            telegram,
+            vkontakte,
         }
     }
 
@@ -61,17 +72,11 @@ impl Application {
             last_published_post_id
         );
         for post in posts {
-            self.publish(post).await?;
+            println!("Going to publish post: {:?}", &post);
+            self.telegram.publish(&post).await?;
+            self.discord.publish(&post)?;
+            self.database.insert_published(post).await;
         }
-        Ok(())
-    }
-
-    async fn publish(&mut self, post: Post) -> Result<(), String> {
-        println!("Going to publish post with id: {}.", post.id);
-        //TODO: iterate over results, log errors and schedule retry
-        self.telegram.publish(&post).await?;
-        self.database.insert_published(post).await;
-        //TODO: retry one more time and return error or result
         Ok(())
     }
 }
@@ -104,6 +109,18 @@ impl Post {
             audio_url: Option::None,
             document_url: Option::None,
         }
+    }
+
+    fn link_url(&mut self, link_url: String) {
+        self.link_url = Some(link_url);
+    }
+
+    fn photo_url(&mut self, photo_url: String) {
+        self.photo_url = Some(photo_url);
+    }
+
+    fn podcast_url(&mut self, url: String, access_key: String) {
+        self.podcast_url = Some(format!("{}?{}", url, access_key));
     }
 }
 
